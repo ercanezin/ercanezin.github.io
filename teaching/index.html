@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Courses</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            background-color: #f4f4f4;
+        }
+
+        h1 {
+            margin-top: 20px;
+            color: #333;
+        }
+
+        ul {
+            list-style-type: none;
+            padding: 0;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+        }
+
+        li {
+            margin: 10px 0;
+        }
+
+        a {
+            text-decoration: none;
+            color: white;
+            background-color: #007BFF;
+            padding: 10px 20px;
+            border-radius: 5px;
+            transition: background-color 0.3s;
+        }
+
+        a:hover {
+            background-color: #0056b3;
+        }
+
+        .separator {
+            width: 80%;
+            height: 1px;
+            background-color: #ccc;
+            margin: 20px 0;
+        }
+
+        @media (max-width: 600px) {
+            a {
+                display: block;
+                text-align: center;
+                width: 100%;
+                box-sizing: border-box;
+            }
+        }
+    </style>
+</head>
+
+<body>
+    <h1>Courses I Teach</h1>
+    <ul>
+        <li><a href="/teaching/2425-autumn/webp/index.html">Web Programlama</a></li>
+        <div class="separator"></div>
+        <li><a href="/teaching/2425-autumn/stat/index.html">İstatistik</a></li>
+        <div class="separator"></div>
+        <li><a href="/teaching/2425-autumn/veng1/index.html">Mesleki Yabancı Dil I</a></li>
+        <div class="separator"></div>
+        <li><a href="/teaching/2425-autumn/veng3/index.html">Mesleki Yabancı Dil III</a></li>
+    </ul>
+</body>
+
+</html>
