@@ -1,0 +1,25 @@
+<html>
+<head>
+  <meta charset="UTF-8">
+  <title>Display None Demo</title>
+</head>
+<body>
+  <h1>Parolayı Görmek için butona tıkla</h1>
+  <button id="toggleButton">Göster</button>
+  <p id="hiddenText" style="display: none;">Parola Şafak!</p>
+  <script>
+    function mesajiGoster(event) {
+      const text = document.getElementById("hiddenText");
+      if (text.style.display === "none") {
+        text.style.display = "block";
+        button.textContent = "Sakla";
+      } else {
+        text.style.display = "none";
+        button.textContent = "Göster";
+      }
+    }
+    const button = document.getElementById("toggleButton");
+    button.addEventListener('click', mesajiGoster);
+  </script>
+</body>
+</html>

@@ -1,0 +1,163 @@
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title>Tic-Tac-Toe</title>
+    <style type="text/css">      
+      /**
+       See: CSS Variables
+       https://developer.mozilla.org/en-US/docs/Web/CSS/Using_CSS_variables
+      **/
+      :root {
+        --grid-size: 450px;
+        --margin-size: 10px;
+        --square-size: calc((var(--grid-size) / 3) - var(--margin-size));
+      }
+
+      body {
+        font-family: sans-serif;
+      }
+
+      #grid {
+        align-content: space-between;
+        background-color: rgba(0,0,0,0.5);
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-between;
+        height: var(--grid-size);
+        width: var(--grid-size);
+      }
+
+      #grid div {
+        background-color: white;
+        height: var(--square-size);
+        width: var(--square-size);
+
+        display: flex;
+        justify-content: center;
+        align-items: center;
+      }
+
+      #grid div img {
+        width: 100%;
+      }
+    </style>
+  </head>
+  <body>
+    <h1>Tic-Tac-Toe</h1>
+    <div id="grid">
+      <div data-index="0"></div>
+      <div data-index="1"></div>
+      <div data-index="2"></div>
+
+      <div data-index="3"></div>
+      <div data-index="4"></div>
+      <div data-index="5"></div>
+
+      <div data-index="6"></div>
+      <div data-index="7"></div>
+      <div data-index="8"></div>
+    </div>
+    <div id="results"></div>
+      <script>
+          const X_IMAGE_URL = 'https://s3-us-west-2.amazonaws.com/s.cdpn.io/1083533/x.png';
+          const O_IMAGE_URL = 'https://s3-us-west-2.amazonaws.com/s.cdpn.io/1083533/circle.png';
+
+          function assignSpace(space, owner) {
+            const image = document.createElement('img');
+            image.src = owner === 'x' ? X_IMAGE_URL : O_IMAGE_URL;
+            space.appendChild(image);
+
+            const index = parseInt(space.dataset.index);
+            takenBoxes[index] = owner;
+            const indexToRemove = freeBoxes.indexOf(space);
+            freeBoxes.splice(indexToRemove, 1);
+            space.removeEventListener('click', changeToX);
+          }
+
+          function changeToX(event) {
+            assignSpace(event.currentTarget, 'x');
+
+            if (isGameOver()) {
+              displayWinner();
+            } else {
+              computerChooseO();
+            }
+          }
+
+          function computerChooseO() {
+            const allBoxes  = document.querySelectorAll('#grid div');
+            const index = Math.floor(Math.random() * freeBoxes.length);
+            const freeSpace = freeBoxes[index];
+
+            assignSpace(freeSpace, 'o');
+
+            if (isGameOver()) {
+              displayWinner();
+            }
+          }
+
+          function isGameOver() {
+            return freeBoxes.length === 0 || getWinner() !== null;
+          }
+
+          function displayWinner() {
+            const winner = getWinner();
+
+            const resultContainer = document.querySelector('#results');
+            const header = document.createElement('h1');
+            if (winner === 'x') {
+              header.textContent = 'You win!';
+            } else if (winner === 'o') {
+              header.textContent = 'Computer wins';
+            } else {
+              header.textContent = 'Tie';
+            }
+            resultContainer.appendChild(header);
+
+            // Remove remaining event listeners
+            for (const box of freeBoxes) {
+              box.removeEventListener('click', changeToX);
+            }
+          }
+
+          function checkBoxes(one, two, three) {
+            if (takenBoxes[one] !== undefined &&
+                takenBoxes[one] === takenBoxes[two] &&
+                takenBoxes[two] === takenBoxes[three]) {
+              return takenBoxes[one];
+            }
+            return null;
+          }
+
+          // Returns 'x', 'o', or null for no winner yet.
+          function getWinner() {
+            for (let col = 0; col < 3; col++) {
+              const offset = col * 3;
+              // Check rows and columns.
+              let result = checkBoxes(offset, 1 + offset, 2 + offset) ||
+                  checkBoxes(col, 3 + col, 6 + col);
+              if (result) {
+                return result;
+              }
+            }
+            
+            // Check diagonals
+            return checkBoxes(0, 4, 8) || checkBoxes(2, 4, 6);
+          }
+
+          const freeBoxes = [];
+          // Map of box number -> 'x' or 'o'
+          const takenBoxes = {};
+          const boxes = document.querySelectorAll('#grid div');
+          for (const box of boxes) {
+            box.addEventListener('click', changeToX);
+            freeBoxes.push(box);
+          }
+      </script>
+  </body>
+
+</html>
+
+
+
+
