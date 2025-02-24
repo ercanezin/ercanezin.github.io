@@ -61,6 +61,16 @@
                 box-sizing: border-box;
             }
         }
+
+        /* Styles for mobile devices */
+        @media (max-width: 600px) {
+            li p a {
+                display: inline-block;
+                /* or block if you want them on separate lines */
+                margin-bottom: 10px;
+                /* adjust the spacing as needed */
+            }
+        }
     </style>
 </head>
 
@@ -70,9 +80,9 @@
     <ul>
         <li>
             <p>
-                <a href="https://hru-algpro.github.io">Algoritmalar ve Programlama II Web Sayfası</a>
-                <a href="../teaching/2425-spring/prog2-1/index.html">Şube 1 (Çarşamba)</a>
-                <a href="../teaching/2425-spring/prog2-2/index.html">Şube 2 (Perşembe)</a>
+                <a href="https://hru-algpro.github.io">Algoritmalar ve Programlama II Web Sayfası</a> <span> </span>
+                <a href="../teaching/2425-spring/prog2-1/index.html">Şube 1 (Çarşamba)</a> <span> </span>
+                <a href="../teaching/2425-spring/prog2-2/index.html">Şube 2 (Perşembe)</a><span> </span>
             </p>
         </li>
         <div class="separator"></div>
