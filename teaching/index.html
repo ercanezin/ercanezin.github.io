@@ -27,6 +27,7 @@
             display: flex;
             flex-direction: column;
             align-items: center;
+            width: 100%;
         }
 
         li {
@@ -60,16 +61,31 @@
                 width: 100%;
                 box-sizing: border-box;
             }
-        }
 
-        /* Styles for mobile devices */
-        @media (max-width: 600px) {
             li p a {
                 display: inline-block;
-                /* or block if you want them on separate lines */
                 margin-bottom: 10px;
-                /* adjust the spacing as needed */
             }
+        }
+
+        /* Announcement style for the aydilek item */
+        #aydilek {
+            background-color: #ffebee;
+            color: #c62828;
+            max-width: 600px;
+            text-align: center;
+            padding: 20px;
+            border: 2px solid #c62828;
+            border-radius: 10px;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+            margin: 20px;
+        }
+
+        #aydilek img {
+            margin-top: 15px;
+            max-width: 100%;
+            height: auto;
+            border-radius: 5px;
         }
     </style>
 </head>
@@ -78,11 +94,23 @@
     <h1>Courses - 2024/2025 Autumn / Dersler - 2024/2025 Bahar</h1>
     <button onclick="location.href='../index.html'">Home</button>
     <ul>
+        <li id="aydilek">
+            Değerli Öğrenciler, 4 Mart Salı 11:00'da Teknokent Genel Müdürümüz ve
+            Bilgisayar Mühendisliği Öğretim Üyemiz Sn. Doç. Dr. Berkan Aydilek hocamızın
+            Mühendislik Fakültesi Konferans Salonunda yapacağı seminere katılan öğrenciler için yoklama alınacak ve bu
+            dönem içinde giremediği bir dersi için yoklama listesinde var sayılıp ek puan alacaktır. Not: Seminer
+            başlangıcında veya sonunda yoklama alınacaktır. Görüşmek üzere.
+            <img src="aydilek.jpeg" alt="Aydilek Announcement">
+        </li>
+
         <li>
             <p>
-                <a href="https://hru-algpro.github.io">Algoritmalar ve Programlama II Web Sayfası</a> <span> </span>
-                <a href="../teaching/2425-spring/prog2-1/index.html">Şube 1 (Çarşamba)</a> <span> </span>
-                <a href="../teaching/2425-spring/prog2-2/index.html">Şube 2 (Perşembe)</a><span> </span>
+                <a href="https://hru-algpro.github.io">Algoritmalar ve Programlama II Web Sayfası</a>
+                <span> </span>
+                <a href="../teaching/2425-spring/prog2-1/index.html">Şube 1 (Çarşamba)</a>
+                <span> </span>
+                <a href="../teaching/2425-spring/prog2-2/index.html">Şube 2 (Perşembe)</a>
+                <span> </span>
             </p>
         </li>
         <div class="separator"></div>
@@ -94,14 +122,10 @@
         <li><a href="../teaching/2425-spring/veng4/index.html">Mesleki Yabancı Dil IV / Vocational English IV</a></li>
         <div class="separator"></div>
         <li><a href="../teaching/2425-spring/project/index.html">Proje / Project</a></li>
-
     </ul>
 
     <br>
-
-    <img src="schedule.png" width="700px">
-
-
+    <img src="schedule.png" width="700px" alt="Schedule">
 </body>
 
 </html>
