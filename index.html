@@ -1,1193 +1,719 @@
-<!DOCTYPE HTML>
-<html>
+<!DOCTYPE html>
+<html lang="en">
 
 <head>
-	<!-- Global site tag (gtag.js) - Google Analytics -->
-	<script async src="https://www.googletagmanager.com/gtag/js?id=UA-97900710-1"></script>
-	<script>
-		window.dataLayer = window.dataLayer || [];
-		function gtag() { dataLayer.push(arguments); }
-		gtag('js', new Date());
-
-		gtag('config', 'UA-97900710-1');
-	</script>
-
 	<meta charset="utf-8">
-	<meta http-equiv="X-UA-Compatible" content="IE=edge">
-	<title>Ercan Ezin</title>
 	<meta name="viewport" content="width=device-width, initial-scale=1">
-	<meta name="description" content="" />
-	<meta name="keywords" content="" />
-	<meta name="author" content="" />
+	<title>Ercan Ezin</title>
+	<meta name="description" content="Dr. Ercan Ezin, tenured Lecturer in Computer Engineering at Harran University and AI Expert at the Council of Higher Education (YÖK). Research in natural language processing, large language models, multimodal AI and recommender systems.">
+	<meta name="author" content="Ercan Ezin">
+	<link rel="canonical" href="https://www.ercanezin.com/">
 
-	<!-- Place favicon.ico and apple-touch-icon.png in the root directory -->
-	<link rel="shortcut icon" href="images/favicon.ico">
+	<meta property="og:type" content="profile">
+	<meta property="og:title" content="Ercan Ezin, PhD">
+	<meta property="og:description" content="Lecturer in Computer Engineering at Harran University and AI Expert at the Council of Higher Education (YÖK). Research in NLP, large language models, multimodal AI and recommender systems.">
+	<meta property="og:url" content="https://www.ercanezin.com/">
+	<meta property="og:image" content="https://www.ercanezin.com/assets/img/og.jpg">
+	<meta name="twitter:card" content="summary_large_image">
+	<meta name="theme-color" content="#2c98f0">
 
-	<link href="https://fonts.googleapis.com/css?family=Quicksand:300,400,500,700" rel="stylesheet">
-	<link href="https://fonts.googleapis.com/css?family=Playfair+Display:400,400i,700" rel="stylesheet">
+	<link rel="icon" href="images/favicon.ico">
 
-	<!-- Animate.css -->
-	<link rel="stylesheet" href="css/animate.css">
-	<!-- Icomoon Icon Fonts-->
-	<link rel="stylesheet" href="css/icomoon.css">
-	<!-- Bootstrap  -->
-	<link rel="stylesheet" href="css/bootstrap.css">
-	<!-- Flexslider  -->
-	<link rel="stylesheet" href="css/flexslider.css">
-	<!-- Flaticons  
-	<link rel="stylesheet" href="fonts/flaticon/font/flaticon.css">-->
-	<!-- Owl Carousel -->
-	<link rel="stylesheet" href="css/owl.carousel.min.css">
-	<link rel="stylesheet" href="css/owl.theme.default.min.css">
-	<!-- Theme style  -->
-	<link rel="stylesheet" href="css/style.css">
+	<link rel="preconnect" href="https://fonts.googleapis.com">
+	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+	<link href="https://fonts.googleapis.com/css2?family=Quicksand:wght@400;500;600;700&display=swap" rel="stylesheet">
+	<link rel="stylesheet" href="assets/css/site.css">
 
-	<!-- Modernizr JS -->
-	<script src="js/modernizr-2.6.2.min.js"></script>
-	<!-- FOR IE9 below -->
-	<!--[if lt IE 9]>
-	<script src="js/respond.min.js"></script>
-	<![endif]-->
+	<script>document.documentElement.classList.add('js');</script>
 
+	<script type="application/ld+json">
+	{
+		"@context": "https://schema.org",
+		"@type": "Person",
+		"name": "Ercan Ezin",
+		"honorificPrefix": "Dr.",
+		"jobTitle": "Lecturer in Computer Engineering",
+		"url": "https://www.ercanezin.com/",
+		"image": "https://www.ercanezin.com/images/about2.jpg",
+		"worksFor": [
+			{ "@type": "CollegeOrUniversity", "name": "Harran University", "url": "https://www.harran.edu.tr/" },
+			{ "@type": "GovernmentOrganization", "name": "Council of Higher Education (YÖK)", "url": "https://www.yok.gov.tr/en" }
+		],
+		"alumniOf": [
+			{ "@type": "CollegeOrUniversity", "name": "University of Bristol" },
+			{ "@type": "CollegeOrUniversity", "name": "University of Essex" },
+			{ "@type": "CollegeOrUniversity", "name": "Bahçeşehir University" }
+		],
+		"sameAs": [
+			"https://akademik.yok.gov.tr/academician-details?authorGuidId=0DEC553C30F02937",
+			"https://orcid.org/0000-0003-0231-9456",
+			"https://www.webofscience.com/wos/author/rid/KII-2938-2024",
+			"https://scholar.google.com/citations?user=jhIZYCwAAAAJ",
+			"https://www.linkedin.com/in/ercanezin/",
+			"https://github.com/ercanezin"
+		]
+	}
+	</script>
 </head>
 
 <body>
-	<div id="colorlib-page">
-		<div class="container-wrap">
-			<a href="#" class="js-colorlib-nav-toggle colorlib-nav-toggle" data-toggle="collapse" data-target="#navbar"
-				aria-expanded="false" aria-controls="navbar"><i></i></a>
-			<aside id="colorlib-aside" role="complementary" class="border js-fullheight">
-				<div class="text-center">
-					<div class="author-img" style="background-image: url(images/about2.jpg);"></div>
-					<h1 id="colorlib-logo"><a href="index.html">Ercan Ezin,PhD</a></h1>
-					<span class="position">
-						Member of <a href='https://anlam-net.github.io/'>ANLAM-NET Lab</a>
-					</span>
-					<span class="position">
-						Lecturer at <a href='https://www.harran.edu.tr'>Harran Uni</a>
-					</span>
+	<a class="skip-link" href="#main">Skip to content</a>
 
+	<!-- Icon sprite (Feather-style line icons) -->
+	<svg xmlns="http://www.w3.org/2000/svg" style="display:none">
+		<symbol id="i-mail" viewBox="0 0 24 24"><path d="M4 4h16c1.1 0 2 .9 2 2v12c0 1.1-.9 2-2 2H4c-1.1 0-2-.9-2-2V6c0-1.1.9-2 2-2z"/><polyline points="22,6 12,13 2,6"/></symbol>
+		<symbol id="i-at" viewBox="0 0 24 24"><circle cx="12" cy="12" r="4"/><path d="M16 8v5a3 3 0 0 0 6 0v-1a10 10 0 1 0-3.92 7.94"/></symbol>
+		<symbol id="i-pin" viewBox="0 0 24 24"><path d="M21 10c0 7-9 13-9 13s-9-6-9-13a9 9 0 0 1 18 0z"/><circle cx="12" cy="10" r="3"/></symbol>
+		<symbol id="i-briefcase" viewBox="0 0 24 24"><rect x="2" y="7" width="20" height="14" rx="2" ry="2"/><path d="M16 21V5a2 2 0 0 0-2-2h-4a2 2 0 0 0-2 2v16"/></symbol>
+		<symbol id="i-cap" viewBox="0 0 24 24"><path d="M22 9 12 4 2 9l10 5 10-5z"/><path d="M6 11.2V16c3 2.4 9 2.4 12 0v-4.8"/><path d="M22 9v6"/></symbol>
+		<symbol id="i-chevron" viewBox="0 0 24 24"><polyline points="6 9 12 15 18 9"/></symbol>
+		<symbol id="i-ext" viewBox="0 0 24 24"><path d="M18 13v6a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V8a2 2 0 0 1 2-2h6"/><polyline points="15 3 21 3 21 9"/><line x1="10" y1="14" x2="21" y2="3"/></symbol>
+		<symbol id="i-msg" viewBox="0 0 24 24"><path d="M21 15a2 2 0 0 1-2 2H7l-4 4V5a2 2 0 0 1 2-2h14a2 2 0 0 1 2 2z"/></symbol>
+		<symbol id="i-image" viewBox="0 0 24 24"><rect x="3" y="3" width="18" height="18" rx="2" ry="2"/><circle cx="8.5" cy="8.5" r="1.5"/><polyline points="21 15 16 10 5 21"/></symbol>
+		<symbol id="i-compass" viewBox="0 0 24 24"><circle cx="12" cy="12" r="10"/><polygon points="16.24 7.76 14.12 14.12 7.76 16.24 9.88 9.88 16.24 7.76"/></symbol>
+		<symbol id="i-shield" viewBox="0 0 24 24"><path d="M12 22s8-4 8-10V5l-8-3-8 3v7c0 6 8 10 8 10z"/><polyline points="9 12 11 14 15 10"/></symbol>
+		<symbol id="i-info" viewBox="0 0 24 24"><circle cx="12" cy="12" r="10"/><line x1="12" y1="16" x2="12" y2="12"/><line x1="12" y1="8" x2="12.01" y2="8"/></symbol>
+		<symbol id="i-bookmark" viewBox="0 0 24 24"><path d="M19 21l-7-5-7 5V5a2 2 0 0 1 2-2h10a2 2 0 0 1 2 2z"/></symbol>
+	</svg>
+
+	<div class="page">
+
+		<!-- ============================ SIDEBAR ============================ -->
+		<aside class="sidebar card" data-sidebar aria-label="Profile">
+			<div class="sidebar-info">
+				<div class="avatar-frame"><img class="avatar" src="images/about2.jpg" alt="Ercan Ezin" width="1024" height="768"></div>
+				<div>
+					<h1 class="name">Ercan Ezin, PhD</h1>
+					<ul class="positions">
+						<li><span class="role">Lecturer</span> · <a href="https://www.harran.edu.tr/">Harran University</a></li>
+						<li><span class="role">AI Expert</span> · <a href="https://www.yok.gov.tr/en">Council of Higher Education (YÖK)</a></li>
+						<li><span class="role">Researcher</span> · <a href="https://anlamnet.ankara.edu.tr/en/mainpage/">ANLAM-NET Lab</a></li>
+					</ul>
 				</div>
-				<nav id="colorlib-main-menu" role="navigation" class="navbar">
-					<div id="navbar" class="collapse">
-						<ul>
-							<li class="active"><a href="#" data-nav-section="about">About</a></li>
-							<li><a href="#" data-nav-section="teaching">Teaching</a></li>
-							<li><a href="#" data-nav-section="publications">Publications</a></li>
-							<li><a href="#" data-nav-section="news">News</a></li>
-							<li><a href="#" data-nav-section="education">Education</a></li>
-							<li><a href="#" data-nav-section="experience">Experience</a></li>
-							<li><a href="#" data-nav-section="activities">Activities</a></li>
-							<li><a href="#" data-nav-section="contact">Contact</a></li>
-						</ul>
-					</div>
+			</div>
 
+			<button class="sidebar-toggle" type="button" data-sidebar-toggle aria-expanded="false" aria-controls="sidebar-more">
+				<span data-label>Contacts &amp; profiles</span>
+				<svg class="ic" aria-hidden="true"><use href="#i-chevron"/></svg>
+			</button>
 
-					<div id="socials">
-						<ul style=" list-style: none;">
-							<li><a style="color: #2c98f0; text-transform: none; "
-									href="https://www.linkedin.com/in/ercanezin/"><i class="icon-linkedin2"></i>
-									@ercanezin</a></li>
-							<li><a style="color: #2c98f0; text-transform: none; "
-									href="https://github.com/ercanezin/"><img src="images/github.ico" width="15"
-										height="15"></img> @ercanezin</a></li>
-
-						</ul>
-					</div>
-				</nav>
-
-
-
-			</aside>
-
-			<div id="colorlib-main">
-				<section class="colorlib-services" data-section="about">
-					<div class="colorlib-narrow-content">
-						<div class="row">
-							<div class="col-md-6 col-md-offset-3 col-md-pull-3 animate-box"
-								data-animate-effect="fadeInLeft">
-								<span class="heading-meta">WELCOME</span>
-								<h2 class="colorlib-heading">Here is a bio of myself</h2>
-							</div>
-						</div>
+			<div class="sidebar-more" id="sidebar-more">
+				<div class="separator"></div>
+				<p class="side-label">Contact</p>
+				<ul class="contacts">
+					<li>
+						<span class="icon-box"><svg class="ic" aria-hidden="true"><use href="#i-mail"/></svg></span>
 						<div>
-						    <p>
-						        Dr. Ercan Ezin is a tenured Lecturer in Computer Engineering at 
-						        <a href="https://www.harran.edu.tr/" target="_blank">Harran University</a>, Türkiye, and a member of the 
-						        <a href="https://anlam-net.github.io/" target="_blank">ANLAM-NET research lab</a>. He completed his Ph.D. in Computer Science at the 
-						        <a href="http://www.bristol.ac.uk/" target="_blank">University of Bristol</a> with a focus on context-aware recommender systems for tourists, combining machine learning, user behavior modeling, and decision-support methods.
-						    </p>
-						
-						    <p>
-						        His current research interests span natural language processing, large language models, multimodal AI, recommendation systems, and explainable/reliable AI for real-world applications. His work emphasizes rigorous evaluation, practical deployment considerations, and the development of data-driven systems that support human decisions in areas such as marketing, tourism, education, and software-intensive domains.
-						    </p>
-						
-						    <p>
-						        Before joining academia full-time, Dr. Ezin worked across industry roles including Java/software engineering, data science, full-stack development, and IT management. This blend of research, teaching, and industry experience allows him to bridge academic AI methods with practical system design, project delivery, and applied problem solving.
-						    </p>
-						
-						    <p style="margin-top: 0.75em; font-size: 0.95em; color: #666;">
-						        He holds an MSc in Advanced Computer Science from the 
-						        <a href="http://www.essex.ac.uk/" target="_blank">University of Essex</a>, UK, and dual BSc degrees in Computer Education and Instructional Technologies and Software Engineering from 
-						        <a href="http://bau.edu.tr" target="_blank">Bahçeşehir University</a>.
-						    </p>
+							<span class="contact-title">Email</span>
+							<a class="email" tabindex="0" data-u="dr.ercan.ezin" data-d="gmail.com">dr.ercan.ezin<span class="at" role="img" aria-label="at"><svg class="ic" aria-hidden="true"><use href="#i-at"/></svg></span>gmail.com</a>
 						</div>
-
-					</div>
-				</section>
-
-				<!-- Teaching Section 
-				<section class="colorlib-services" data-section="teaching">
-					<div class="colorlib-narrow-content">
-						<div class="row">
-							<div class="col-md-6 col-md-offset-3 col-md-pull-3 animate-box"
-								data-animate-effect="fadeInLeft">
-								<span class="heading-meta">TEACHING</span>
-								<h2 class="colorlib-heading">HARRAN UNIVERSITY COMPUTER ENGINEERING</h2>
-							</div>
-						</div>
+					</li>
+					<li>
+						<span class="icon-box"><svg class="ic" aria-hidden="true"><use href="#i-briefcase"/></svg></span>
 						<div>
-							<a href="./teaching/index.html">
-								No course will be given by me until further notice.<br>
-							</a>
+							<span class="contact-title">Institutional email</span>
+							<a class="email" tabindex="0" data-u="ercan.ezin" data-d="harran.edu.tr">ercan.ezin<span class="at" role="img" aria-label="at"><svg class="ic" aria-hidden="true"><use href="#i-at"/></svg></span>harran.edu.tr</a>
 						</div>
-					</div>
-				</section>
--->
-				<section class="colorlib-skills" data-section="publications">
-					<div class="colorlib-narrow-content">
-						<div class="row">
-							<div class="col-md-6 col-md-offset-3 col-md-pull-3 animate-box"
-								data-animate-effect="fadeInLeft">
-								<span class="heading-meta">My Publications</span>
-								<h2 class="colorlib-heading animate-box">Recent Publications</h2>
-							</div>
+					</li>
+					<li>
+						<span class="icon-box"><svg class="ic" aria-hidden="true"><use href="#i-pin"/></svg></span>
+						<div>
+							<span class="contact-title">Location</span>
+							<address>Ankara, Türkiye</address>
 						</div>
-						<div class="row">
-							<p class="center"><strong>2026</strong></p>
-							<div class="col-md-12 animate-box" data-animate-effect="fadeInLeft">
-								<p>
-									<i class="icon-chevron-right"></i>
-									<strong>Ezin, E.</strong>, 2026.
-									<a href="https://doi.org/10.3390/app162010105" target="_blank" rel="noopener noreferrer">
-										A Controlled Reanalysis of KIDO: Text Variants, Image-Model Configurations, and Cross-Modal Score Discrepancy
-									</a>.
-									in: <strong>Applied Sciences</strong>, Vol. 16, Issue 20, 10105.
-									DOI: <a href="https://doi.org/10.3390/app162010105" target="_blank" rel="noopener noreferrer">10.3390/app162010105</a>
-									<br>
-									<span><em>(SCI-E Indexed Journal)</em></span>
-								</p>
-							</div>
-
-							<div class="col-md-12 animate-box" data-animate-effect="fadeInLeft">
-								<p>
-								<i class="icon-chevron-right"></i>
-								  <strong>Ezin, E.</strong> (2026). Recommender Systems as the New Marketing Engine: How Algorithmic Personalisation Rewires Segmentation, Targeting, and Consumer Choice. 
-								  In A. V. Ertemel (Ed.), 
-								  <strong>Intelligence Rewired: Rethinking Marketing and Management in the Age of AI</strong>
-								  (pp. 77–105). Haliç Publishing House, <a href="https://doi.org/10.38066/hy.f70r415p.hph" target="_blank" rel="noopener noreferrer"> https://doi.org/10.38066/hy.f70r415p.hph </a>
-								</p>
-							</div>
-
-							<div class="col-md-12 animate-box" data-animate-effect="fadeInLeft">
-								<p>
-									<i class="icon-chevron-right"></i>
-									<strong>Ezin, E.</strong>, İnağ, T., &amp; İnağ, Y., 2026.
-									<a href="https://www.ubmk.org.tr" target="_blank" rel="noopener noreferrer">A
-										Leakage-Aware Temporal Validation Framework for Non-Stationary Regression on
-										SCADA Wind Power Curves</a>
-									, in:
-									<strong>11th International Conference on Computer Science and Engineering (<a
-											href="https://www.ubmk.org.tr" target="_blank"
-											rel="noopener noreferrer">UBMK 2026</a>)</strong>: İstanbul, Türkiye. September 16-20, 2026.
-								</p>
-							</div>
-
-							<div class="col-md-12 animate-box" data-animate-effect="fadeInLeft">
-								<p><i class="icon-chevron-right"></i> <strong>Ezin, E.</strong>,
-									2026,
-									<a href="https://siu2026.pirireis.edu.tr/ " target="_blank">A Multi-Agent Reasoning
-										Reliability Framework for Autonomous Decision Support and Its Preliminary
-										Evaluation on StrategyQA</a>
-									in: <strong>34th Signal Processing and Communications Applications (SIU-2026)
-										Conference</strong>:
-									Piri Reis University, Deniz Campus, Istanbul, Türkiye. July 7-10, 2026.
-								</p>
-							</div>
-							<div class="col-md-12 animate-box" data-animate-effect="fadeInLeft">
-								<p><i class="icon-chevron-right"></i> <strong>Ezin, E.</strong>, İnağ, Y. 2026,
-									<a href="https://ichoracongress.com/" target="_blank">Behavioural Traits in LLM
-										Group Deliberation: An Opinion-Dynamics Study</a>.
-									in: <strong>8th International Congress on Human-Computer Interaction,
-										Optimization and Robotic Applications (ICHORA 2026)</strong>: Radisson Blu
-									Hotel, Ankara, Türkiye. May 21-23, 2026.
-								</p>
-							</div>
-
-							<div class="col-md-12 animate-box" data-animate-effect="fadeInLeft">
-								<p><i class="icon-chevron-right"></i> Baimukhamedova, A. M., <strong>Ezin, E.</strong>,
-									2026,
-									<a href="https://www.uyik.org/" target="_blank">Reliability and Verifiability in
-										AI-Assisted Applied
-										Statistics: A Synthetic Macroeconomic Forecasting Case Study</a>.
-									in: <strong>VII. International Applied Statistics Congress (UYIK-2026)</strong>:
-									Yıldız Technical University, Davutpaşa Campus, Istanbul, Türkiye. May 11-13, 2026.
-								</p>
-							</div>
-
-							<p class="center"><strong>2025</strong></p>
-							<div class="col-md-12 animate-box" data-animate-effect="fadeInLeft">
-								<p>
-									<i class="icon-chevron-right"></i>
-
-									Savran Kiziltepe, R., <strong>Ezin, E. </strong>,
-									Yentur, Ö., Basbrain, A. & Karakus, M., 2025,
-
-									<a href="https://ieeexplore.ieee.org/document/10980352?" target="_blank">
-										Advancing Sentiment Analysis for Low-Resource Languages Using Fine-Tuned LLMs: A
-										Case Study of Customer Reviews in Turkish Language
-									</a>.
-									in: <strong>IEEE Access</strong>, Vol. 13, pp. 77382–77394.
-									DOI: <a href="https://ieeexplore.ieee.org/document/10980352?"
-										target="_blank">10.1109/ACCESS.2025.3566000</a>
-									<br>
-									<span><em>(SCI-E Indexed Journal)</em></span>
-								</p>
-							</div>
-
-							<p class="center"><strong>2024</strong></p>
-
-							<div class="col-md-12 animate-box" data-animate-effect="fadeInLeft">
-								<p><i class="icon-chevron-right"></i><strong>Ezin, E.</strong>, Savran Kiziltepe,
-									R., &
-									Karakus, M., 2024,
-									<a href="https://www.ubmk.org.tr" target="_blank">Using LLMs for Annotation and
-										ML
-										Methods for Comparative Analysis of Large-Scale Turkish Sentiment
-										Datasets</a>.
-									in: <strong>9th International Conference on Computer Science and Engineering
-										<a href="https://www.ubmk.org.tr" target="_blank">(UBMK 2024)</a>:</strong>
-									Antalya, Türkiye.
-								</p>
-							</div>
-
-
-							<div class="col-md-12 animate-box" data-animate-effect="fadeInLeft">
-								<p><i class="icon-chevron-right"></i>Savran Kiziltepe, R, <strong>Ezin, E </strong>&
-									Karakus, M, 2024, <a href="http://asyu.inista.org/EN/index.html" target="_blank"> A
-										Comparative Study of ML Models on Large-Scale Turkish Sentiment
-										Datasets</a>.
-									in: <strong>Innovations in Intelligent Systems and Applications Conference <a
-											href="http://asyu.inista.org/EN/index.html" target="_blank">(ASYU
-											2024)</a>:</strong> Ankara, Türkiye.</p>
-							</div>
-
-							<p class="center"><strong>2019</strong></p>
-
-							<div class="col-md-12 animate-box" data-animate-effect="fadeInLeft">
-								<p><i class="icon-chevron-right"></i> <strong>Ezin, E</strong>, Neve, J &
-									Carrascosa,
-									IP, 2019, <a
-										href="https://www.researchgate.net/publication/335444931_Group_Decision_Making_with_Collaborative-Filtering_'in_the_loop'_interaction-based_preference_and_trust_elicitations"
-										target="_blank">‘Group Decision Making with Collaborative-Filtering ’in the
-										loop’: interaction-based preference and trust elicitation’</a>. in:
-									<strong>2019
-										IEEE International Conference on Systems, Man, and Cybernetics (IEEE SMC
-										2019):</strong> <a href="http://smc2019.org/index.html" target="_blank">Special
-										Session on Decision Support Systems based on Soft computing techniques.
-										Bari,
-										Italy.</a>
-								</p>
-							</div>
-							<div class="col-md-12 animate-box" data-animate-effect="fadeInLeft">
-								<p><i class="icon-chevron-right"></i> <strong>Ezin, E</strong>, Alcaraz-Herrera, H &
-									Carrascosa, IP, 2019, <a
-										href="https://www.researchgate.net/publication/335444925_Balancing_Preferences_Popularity_and_Location_in_Context-Aware_Restaurant_Deal_Recommendation_A_Bristol_Cardiff_and_Brighton_Case_Studyssss"
-										target="_blank">‘Balancing Preferences, Popularity and Location in
-										Context-Aware
-										Restaurant Deal Recommendation: A Bristol, Cardiff and Brighton Case
-										Study’</a>.
-									in: <strong>13th ACM Conference on Recommender Systems (ACM-Recsys'19):</strong>
-									<a href="https://recsys.acm.org/recsys19/" target="_blank">ACM RecSys Workshop
-										on
-										Recommenders in Tourism. Copenhagen, Denmark.</a>
-								</p>
-							</div>
-
-							<p class="center"><strong>2018</strong></p>
-							<div class="col-md-12 animate-box" data-animate-effect="fadeInLeft">
-								<p><i class="icon-chevron-right"></i> <strong>Ezin, E</strong>, Kim, E & Carrascosa,
-									IP,
-									2018, <a href="http://www.bristol.ac.uk/engineering/people/ercan-ezin/pub/166131684"
-										target="_blank">‘'Fitness that Fits': - A Prototype Model for Workout Video
-										Recommendation’</a>. in: <strong>12th ACM Conference on Recommender Systems
-										(ACM-Recsys'18):</strong> <a href="https://recsys.acm.org/recsys18/"
-										target="_blank">International Workshop on Health Recommender Systems.
-										Vancouver,
-										Canada.</a></p>
-							</div>
-							<div class="col-md-12 animate-box" data-animate-effect="fadeInLeft">
-								<p><i class="icon-chevron-right"></i> <strong>Ezin, E</strong>, Neve, J &
-									Carrascosa,
-									IP, 2018, <a href="http://dmrsworkshop.inf.unibz.it/" target="_blank">Extended
-										Abstract: ‘Group decision making with recommendations ‘in the loop’:
-										application
-										to trip planning through video watching’</a>. in: <strong>International
-										Workshop
-										on Decision Making and Recommender Systems:</strong> <a
-										href="http://dmrsworkshop.inf.unibz.it/" target="_blank">DMRS 2018.
-										Bolzano-Bozen, Italy.</a></p>
-							</div>
-
-
-						</div>
-					</div>
-				</section>
-
-				<section class="colorlib-work" data-section="news">
-					<div class="colorlib-narrow-content">
-						<div class="row">
-							<div class="col-md-6 col-md-offset-3 col-md-pull-3 animate-box"
-								data-animate-effect="fadeInLeft">
-								<span class="heading-meta">Latest News</span>
-								<h2 class="colorlib-heading animate-box">News</h2>
-							</div>
-						</div>
-
-						<div class="row">
-
-							<div class="col-md-12 animate-box" data-animate-effect="fadeInLeft">
-								<p><i class="icon-chevron-right"></i><img width="30px" src="images/news.gif"><strong> 12
-										Oct'26</strong> Delighted to share that our new paper titled "A Controlled Reanalysis of KIDO: Text Variants, Image-Model Configurations, and Cross-Modal Score Discrepancy" has been published in Applied Sciences (MDPI), Vol 16, Issue 20. Click <a
-										href='https://doi.org/10.3390/app162010105' target='_blank'>here</a>
-									to access the article.
-								</p>
-							</div>
-
-							<div class="col-md-12 animate-box" data-animate-effect="fadeInLeft">
-								<p><i class="icon-chevron-right"></i><strong>10 May'25</strong> It is an honour to announce that our paper on Advancement of
-									Turkish E-commerce datasets has been published at IEEE Access in Vol 13. Click <a
-										href='https://ieeexplore.ieee.org/document/10980352?' target='_blank'>here</a>
-									to access the article.
-								</p>
-							</div>
-
-							<div class="col-md-12 animate-box" data-animate-effect="fadeInLeft">
-								<p><i class="icon-chevron-right"></i><strong> 12
-										Sep'24</strong> We are thrilled to announce that <a
-										href='https://anlam-net.github.io/' target='_blank'>ANLAM-NET LAB</a> has
-									been
-									awarded
-									a significant research grant by the Deanship of Scientific Research (DSR) at
-									King
-									Abdulaziz University. This grant (no. GPIP: 1789-612-2024) will support our
-									ongoing
-									efforts in advancing Natural Language Processing research and development.
-								</p>
-							</div>
-							<div class="col-md-12 animate-box" data-animate-effect="fadeInLeft">
-								<p><i class="icon-chevron-right"></i><strong> 28
-										Aug'24</strong> I am excited to announce we have established <a
-										href='https://anlam-net.github.io/' target='_blank'>Advanced Natural Language
-										and
-										Multimedia Processing Lab (ANLAM-NET Lab)</a> at Ankara University with a team
-									of
-									brilliant researchers. ANLAM-NET Lab is dedicated to advancing research in Natural
-									Language Processing (NLP) and multimedia technologies. Please check out our <a
-										href='https://anlam-net.github.io/' target='_blank'>web page</a> for more
-									information.
-								</p>
-							</div>
-
-							<div class="col-md-12 animate-box" data-animate-effect="fadeInLeft">
-								<p><i class="icon-chevron-right"></i><strong> 14
-										Aug'24</strong> It is with the greatest joy to announce that our second
-									conference paper on Turkish NLP studies has been accepted for the <a
-										href='http://www.ubmk.org.tr/en/' target='_blank'>UBMK 2024 Conference</a>,
-									which will be held at Antalya, Türkiye between October 26-28, 2024!
-								</p>
-							</div>
-
-							<div class="col-md-12 animate-box" data-animate-effect="fadeInLeft">
-								<p><i class="icon-chevron-right"></i><strong> 1
-										Aug'24</strong> We are thrilled to announce that our conference paper on
-									Turkish
-									NLP studies has been accepted for the <a href='http://asyu.inista.org/EN/index.html'
-										target='_blank'>ASYU'24
-										Conference</a>, which will be held at Gazi University,
-									Ankara, Türkiye between October 16-18, 2024!
-								</p>
-							</div>
-
-							<div class="col-md-12 animate-box" data-animate-effect="fadeInLeft">
-								<p><i class="icon-chevron-right"></i><strong> 16 May'24</strong> After enduring a
-									long
-									and exceedingly challenging five years in the UK, I have successfully graduated
-									from
-									the University of Bristol with my PhD degree, and I am now prepared to embark on
-									my
-									next challenge.
-								</p>
-							</div>
-
-							<div class="col-md-12 animate-box" data-animate-effect="fadeInLeft">
-								<p><i class="icon-chevron-right"></i><strong> 14 May'24</strong> Happy to announce
-									that
-									I was invited by Dr. Binyamin bin Yusoff to give a talk at SIGMDA KNOWLEDGE
-									SHARING
-									SESSION organised by <a href='https://fskm.umt.edu.my/'>Universiti Malaysia
-										Terengganu</a> about one of my earlier study on Group Decision Making.
-								</p>
-							</div>
-
-							<div class="col-md-12 animate-box" data-animate-effect="fadeInLeft">
-								<p><i class="icon-chevron-right"></i><strong> 7 Mar'24</strong> I delivered a
-									lecture at
-									Ankara University on Agile Methodologies, where I was invited to share my recent
-									experiences.
-								</p>
-							</div>
-
-							<div class="col-md-12 animate-box" data-animate-effect="fadeInLeft">
-								<p><i class="icon-chevron-right"></i><strong> 20 Mar'23</strong> I am happy to
-									announce
-									that I have submitted my PhD thesis.
-								</p>
-							</div>
-
-							<span id="toggle-button" style="color: #2c98f0; margin-left:30px ; cursor: pointer;">Click
-								to see more</span>
-
-							<div id="hidden-content" style="display: none;">
-
-								<div class="col-md-12 animate-box" data-animate-effect="fadeInLeft">
-									<p><i class="icon-chevron-right"></i><strong> 29 Jul'19</strong> Another acceptance
-										notification of our paper has been received from Rectour Workshop organisers. I
-										will
-										be presenting poster of our workshop paper at <a target="_blank"
-											href="https://recsys.acm.org/recsys19/">13th ACM RecSys </a> taking place in
-										Denmark, Copenhagen on Thursday 19th September between 15:30-16:00 during
-										RecTour
-										Workshop Poster session.
-									</p>
-								</div>
-
-								<div class="col-md-12 animate-box" data-animate-effect="fadeInLeft">
-									<p><i class="icon-chevron-right"></i><strong> 18 Jul'19</strong> Acceptance
-										notification
-										of special session paper has been received from SMC Special Session organisers.
-										I
-										will be presenting our research at <a target="_blank"
-											href="http://smc2019.org/index.html"> 2019 IEEE International Conference on
-											Systems, Man, and Cybernetics (IEEE SMC 2019).</a> taking place in Bari,
-										Italy.
-										I am so exicited to meet new people during the conference.</p>
-								</div>
-
-								<div class="col-md-12 animate-box" data-animate-effect="fadeInLeft">
-									<p><i class="icon-chevron-right"></i><strong>16 Jul'19</strong> My registration for
-										<a target="_blank" href="https://recsys.acm.org/recsys19/">13th ACM RecSys
-										</a>conference has been done. I will be in Denmark, Copenhagen between 15th to
-										21st
-										of September,2019.
-										Please visit registration desk for a quick chat with me as I am a student
-										volunteer
-										in the conference and will be working in the registration desk on the first day
-										of
-										the conference.
-									</p>
-								</div>
-
-								<div class="col-md-12 animate-box" data-animate-effect="fadeInLeft">
-									<p><i class="icon-chevron-right"></i><strong>16 Jul'19</strong> Application for SMC
-										2019
-										Student Travel Grant Application has been sent. Organisers are very positive
-										about
-										student application that grants students about <b> 400£</b> to be used during
-										their
-										travel to SMC 2019 conference which will be held in Bari, Italy on 6-9 October.
-									</p>
-								</div>
-
-								<div class="col-md-12 animate-box" data-animate-effect="fadeInLeft">
-									<p><i class="icon-chevron-right"></i><strong> 05 Jul'19</strong> Proudly been
-										awarded as
-										a Student Volunteer(SV) role in one of the most prestigious conference(<a
-											target="_blank" href="https://recsys.acm.org/recsys19/">13th ACM RecSys
-										</a>) in
-										Recommender Systems field which will be held in Denmark, Copenhagen between
-										15-20
-										September 2019. The award will allow me to connect with other SVs and conference
-										organisers,
-										Additionally, I will be exempt from paying registration fees of about
-										<b>500£</b>.
-									</p>
-								</div>
-
-								<div class="col-md-12 animate-box" data-animate-effect="fadeInLeft">
-									<p><i class="icon-chevron-right"></i><strong>1 Jun'19</strong> Time for a short
-										break. I
-										will be visiting my Families in Türkiye thus will be away between 9-29
-										June,2019.
-										Follow my <a target="_blank" href="https://twitter.com/ercan_ezin">twitter </a>
-										account for some pictures of my visit. </p>
-								</div>
-
-								<div class="col-md-12 animate-box" data-animate-effect="fadeInLeft">
-									<p><i class="icon-chevron-right"></i><strong>30 May'19</strong> Exciting News! My
-										first
-										year progress in the PhD position have been evaluated as succesfull by
-										reviewers.
-										Time to implement my findings. </p>
-								</div>
-
-
-								<div class="col-md-12 animate-box" data-animate-effect="fadeInLeft">
-									<p><i class="icon-chevron-right"></i><strong>23 May'19</strong> DSRS and Bristol’s
-										Jean
-										Golding Institute organise RESULTS Interdisciplinary workshop – For more
-										information
-										please visit: <a target="_blank"
-											href="https://dsrs.blogs.bristol.ac.uk/2019/03/10/dsrs-and-bristols-jean-golding-institute-organise-results-interdisciplinary-workshop-23rd-may-2019/">
-											DSRS Blog page</a> </p>
-								</div>
-
-
-
-								<div class="col-md-12 animate-box" data-animate-effect="fadeInLeft">
-									<p><i class="icon-chevron-right"></i><strong>01 Mar'19</strong> We are glad to
-										announce
-										1st International Workshop on Personalisation and Decision Support for Citizen
-										Service Enhancement at Scale - IEEE Smart-PDS 2019. Me and my academic
-										supervisor
-										Dr. Carrascosa will be organising this workshop that is a part of 3rd
-										International
-										Conference on Smart City Innovations. Please see <a target="_blank"
-											href="https://smart-pds.github.io/">workshop page</a> for more information.
-									</p>
-								</div>
-								<div class="col-md-12 animate-box" data-animate-effect="fadeInLeft">
-									<p><i class="icon-chevron-right"></i><strong>22 Jan'19</strong> School of Computer
-										Science attained me as a Teaching Support Assistant for the course Applied Data
-										Science. I will be mentoring two teams of 5 students on data science projects
-										related to social networks. </p>
-								</div>
-								<div class="col-md-12 animate-box" data-animate-effect="fadeInLeft">
-									<p><i class="icon-chevron-right"></i><strong>19 Dec'18</strong> We visited Granada
-										University and each member of our group gave a short seminar about our research
-										background to a group of researcher including a pioneer in data science field,
-										Prof
-										Paco Herrera. Additionally, we visited the UJAMI Ambient Smart-Lab at University
-										of
-										Jean where Dr. Macarena Espinilla showcased some of their practical work with
-										sensors.</p>
-								</div>
-								<div class="col-md-12 animate-box" data-animate-effect="fadeInLeft">
-									<p><i class="icon-chevron-right"></i><strong>17 Dec'18</strong> DSRS group to visit
-										Spain. Our Research Group is going to meet a pioneer in Group Decision Making in
-										Granada for new collaboration opportunuties. We are planning to give a short
-										talk
-										about our background.</p>
-								</div>
-								<div class="col-md-12 animate-box" data-animate-effect="fadeInLeft">
-									<p><i class="icon-chevron-right"></i><strong>29/30 Nov'18</strong> We are pleased to
-										attend DMRS workshop as complete DSRS Research Group members. This two-day event
-										let
-										us to explore latest development in Decision Making and Recommender Systems
-										along
-										with comments/discussions from pioneers in this field. Looking forward to attend
-										future ones. </p>
-								</div>
-								<div class="col-md-12 animate-box" data-animate-effect="fadeInLeft">
-									<p><i class="icon-chevron-right"></i><strong>24/25 Nov'18</strong> Great news from
-										the
-										lates event I participated. I have participated a two-days Hackhaton organised
-										by <a
-											href="https://www.connectingbristol.org/engaging-on-open-data-in-the-2018-bbc-digital-cities-week/"
-											target="_blank">ConnectingBristol</a> and <a
-											href="https://www.bbc.co.uk/academy/en/articles/art20181003100608771"> BBC
-											Digital Cities Week</a>. My team Eco Road Warriors has won the best
-										application
-										award and also won a prize in following <a
-											href="https://www.connectingbristol.org/engaging-on-open-data-in-the-2018-bbc-digital-cities-week/">Our
-											Data Projects – Pitching and Commissioning Session</a> event. </p>
-								</div>
-								<div class="col-md-12 animate-box" data-animate-effect="fadeInLeft">
-									<p><i class="icon-chevron-right"></i><strong>08 Oct'18</strong> Me and my academic
-										supervisor Dr. Ivan Palomares will visit Alan Turing Institute on 30th of
-										October
-										for orientation event. The event promise new networking opportunities with
-										existing
-										and new Turing Fellows.</p>
-								</div>
-								<div class="col-md-12 animate-box" data-animate-effect="fadeInLeft">
-									<p><i class="icon-chevron-right"></i><strong>23 Oct'18</strong> It is an honour to
-										announce that my application for Bristol University Alumni Mobility Grant Award
-										is
-										evaluated positively and I have been granted Travel Award of
-										<strong>450£</strong>
-										for our visit in Italy.
-									</p>
-								</div>
-								<div class="col-md-12 animate-box" data-animate-effect="fadeInLeft">
-									<p><i class="icon-chevron-right"></i><strong>03 Oct'18</strong> A good news about
-										our
-										extended abstract paper sent to DMRS'18 event in Bolzano'Italy. We will be
-										presenting our work in workshop with James Neve and Dr Ivan Palomares.</p>
-								</div>
-								<div class="col-md-12 animate-box" data-animate-effect="fadeInLeft">
-									<p><i class="icon-chevron-right"></i><strong> 06 Oct'18</strong> I will be
-										presenting a
-										workshop paper in RecSys'18 ceonference taking place in Canada,Vancouver. Come
-										along
-										if you are around on saturday.</p>
-								</div>
-								<div class="col-md-12 animate-box" data-animate-effect="fadeInLeft">
-									<p><i class="icon-chevron-right"></i><strong>Sep'18</strong> We are finally
-										announcing
-										the publication of our DSRS group <a href="https://www.iadssummerschool.com/"
-											target="_blank">website</a>website where we will be releasing up-to-date
-										info
-										about DSRS group members and projects. Please check it out.</p>
-								</div>
-								<div class="col-md-12 animate-box" data-animate-effect="fadeInLeft">
-									<p><i class="icon-chevron-right"></i><strong>Sep'18</strong> Bristol University
-										Computer
-										Science office allocated me an HPT unit in the course of "EMAT10007- Intro to
-										Programming" for the first semester. </p>
-								</div>
-								<div class="col-md-12 animate-box" data-animate-effect="fadeInLeft">
-									<p><i class="icon-chevron-right"></i><strong>Jul'18</strong> I am glad to be granted
-										a
-										<strong> fee schoolarship worth 1000£</strong> by the panel of Essex Big Data
-										and
-										Analytics Summer School(IADS). I will be participating a two-weeks <a
-											href="https://www.iadssummerschool.com/" target="_blank">IADS</a> summer
-										school
-										between 23 July - 3 August 2018 at University of Essex where I did my masters.
-									</p>
-								</div>
-								<div class="col-md-12 animate-box" data-animate-effect="fadeInLeft">
-									<p><i class="icon-chevron-right"></i><strong>12 Jul'18</strong>, Due to nature of my
-										academic studies, Prof Peter Flach agreed to be my co-supervisor from now on.
-										Please
-										click <a href="http://people.cs.bris.ac.uk/~flach/" target="_blank">here</a> to
-										see
-										his personal page.</p>
-								</div>
-								<div class="col-md-12 animate-box" data-animate-effect="fadeInLeft">
-									<p><i class="icon-chevron-right"></i><strong>Jul'18</strong>, I am back on
-										twitter!!!
-										Please follow me on twitter! <a href="https://www.twitter.com/ercan_ezin"><i
-												class="icon-twitter2"></i> @ercan_ezin</a></p>
-								</div>
-
-								<div class="col-md-12 animate-box" data-animate-effect="fadeInLeft">
-									<p><i class="icon-chevron-right"></i><strong>May'18</strong>, I am happy to announce
-										that I started my PhD at University of Bristol under the supervision of Dr. Ivan
-										Palomares Carrascosa. I will be working on Tourism and Leisure Recommender
-										Systems.
-									</p>
-								</div>
-							</div>
-
-
-						</div>
-					</div>
-				</section>
-
-				<section class="colorlib-education" data-section="education">
-					<div class="colorlib-narrow-content">
-						<div class="row">
-							<div class="col-md-6 col-md-offset-3 col-md-pull-3 animate-box"
-								data-animate-effect="fadeInLeft">
-								<span class="heading-meta">Education</span>
-								<h2 class="colorlib-heading animate-box">Educational BACKGROUND</h2>
-							</div>
-						</div>
-						<div class="row">
-							<div class="col-md-12 animate-box" data-animate-effect="fadeInLeft">
-								<div class="fancy-collapse-panel">
-									<div class="panel-group" id="accordion" role="tablist" aria-multiselectable="true">
-										<div class="panel panel-default">
-											<div class="panel-heading" role="tab" id="headingOne">
-												<h4 class="panel-title">
-													<a data-toggle="collapse" data-parent="#accordion"
-														href="#collapseOne" aria-expanded="true"
-														aria-controls="collapseOne">University of Bristol, United
-														Kingdom, PhD in Computer Science, 2024
-													</a>
-												</h4>
-											</div>
-											<div id="collapseOne" class="panel-collapse collapse in" role="tabpanel"
-												aria-labelledby="headingOne">
-												<div class="panel-body">
-													<div class="row">
-														<div class="col-md-6">
-															<p><strong>Started:</strong> 21st of May'18</p>
-															<p><strong>Award date:</strong> 16th of May'24</p>
-															<p><strong>Academic Supervisor:</strong> Prof Seth
-																Bullock
-																(<a href="https://seis.bristol.ac.uk/~sb15704/"
-																	target="_blank">Web</a>)
-															</p>
-															<p><strong>Academic Co-Supervisor:</strong> Prof
-																Jonathan
-																Lawry (<a
-																	href="http://www.bristol.ac.uk/engineering/people/jonathan-lawry/"
-																	target="_blank">Web</a>)
-															</p>
-														</div>
-														<div class="col-md-6">
-															<p><strong>Thesis title:</strong>Towards Context-Aware
-																Recommender Systems for Tourists</p>
-														</div>
-													</div>
-												</div>
-											</div>
-										</div>
-										<div class="panel panel-default">
-											<div class="panel-heading" role="tab" id="headingTwo">
-												<h4 class="panel-title">
-													<a class="collapsed" data-toggle="collapse" data-parent="#accordion"
-														href="#collapseTwo" aria-expanded="false"
-														aria-controls="collapseTwo">University
-														of Essex, United Kingdom,
-														Master's Degree in Computer Science, 2017
-													</a>
-												</h4>
-											</div>
-											<div id="collapseTwo" class="panel-collapse collapse" role="tabpanel"
-												aria-labelledby="headingTwo">
-												<div class="panel-body">
-													<div class="row">
-														<div class="col-md-6">
-															<p><strong>Started:</strong> 06th of Oct'16</p>
-															<p><strong>Award date:</strong> 04th of Oct'17</p>
-															<p><strong>Supervisor:</strong> Prof Dr Riccardo Poli (<a
-																	href="https://www.essex.ac.uk/people/polir15101/riccardo-poli"
-																	target="_blank">Web</a>) and Dr Caterina Cinel
-																(<a href="https://www.essex.ac.uk/people/cinel32002/caterina-cinel"
-																	target="_blank">Web</a>)</p>
-														</div>
-														<div class="col-md-6">
-															<p><strong>Thesis title:</strong>Feasibility study of
-																Brain
-																Computer Interface: P300-based Speller with
-																Sequential
-																Stimulation</p>
-															<p><strong>GPA:</strong>65/100</p>
-														</div>
-													</div>
-												</div>
-											</div>
-										</div>
-										<div class="panel panel-default">
-											<div class="panel-heading" role="tab" id="headingThree">
-												<h4 class="panel-title">
-													<a class="collapsed" data-toggle="collapse" data-parent="#accordion"
-														href="#collapseThree" aria-expanded="false"
-														aria-controls="collapseThree">University of Bahçeşehİr,
-														İstanbul, Türkİye, Bachelor's Degree in Software
-														Engineering,
-														2013
-													</a>
-												</h4>
-											</div>
-											<div id="collapseThree" class="panel-collapse collapse" role="tabpanel"
-												aria-labelledby="headingThree">
-												<div class="panel-body">
-													<div class="row">
-														<div class="col-md-6">
-															<p><strong>Started:</strong>Sep'07</p>
-															<p><strong>Award date:</strong> Sep'13</p>
-														</div>
-														<div class="col-md-6">
-															<p><strong>GPA:</strong>3.11/4.00</p>
-														</div>
-
-													</div>
-												</div>
-											</div>
-										</div>
-
-										<div class="panel panel-default">
-											<div class="panel-heading" role="tab" id="headingFour">
-												<h4 class="panel-title">
-													<a class="collapsed" data-toggle="collapse" data-parent="#accordion"
-														href="#collapseFour" aria-expanded="false"
-														aria-controls="collapseFour">University of Bahçeşehİr,
-														İstanbul,
-														Türkİye, Bachelor's Degree in Computer Education and
-														Information
-														Technologies, 2013
-													</a>
-												</h4>
-											</div>
-											<div id="collapseFour" class="panel-collapse collapse" role="tabpanel"
-												aria-labelledby="headingFour">
-												<div class="panel-body">
-													<div class="row">
-														<div class="col-md-6">
-															<p><strong>Started:</strong>Sep'07</p>
-															<p><strong>Award date:</strong> Jun'13</p>
-														</div>
-														<div class="col-md-6">
-															<p><strong>GPA:</strong>3.63/4.00</p>
-														</div>
-													</div>
-												</div>
-											</div>
-										</div>
-
-										<div class="panel panel-default">
-											<div class="panel-heading" role="tab" id="headingFive">
-												<h4 class="panel-title">
-													<a class="collapsed" data-toggle="collapse" data-parent="#accordion"
-														href="#collapseFive" aria-expanded="false"
-														aria-controls="collapseFive">École
-														Pour l'Informatique et les
-														Techniques Avancées, France, Erasmus Exchange Program, 2011
-													</a>
-												</h4>
-											</div>
-											<div id="collapseFive" class="panel-collapse collapse" role="tabpanel"
-												aria-labelledby="headingFive">
-												<div class="panel-body">
-													<div class="col-md-6">
-														<p><strong>Started:</strong>Feb'11</p>
-														<p><strong>End date:</strong> Jul'11</p>
-													</div>
-													<div class="col-md-6">
-														<p>(<a href="https://www.epita.fr/en/" target="_blank">Web</a>)
-														</p>
-													</div>
-												</div>
-											</div>
-										</div>
-									</div>
-								</div>
-							</div>
-						</div>
-					</div>
-				</section>
-
-				<section class="colorlib-experience" data-section="experience">
-					<div class="colorlib-narrow-content">
-						<div class="row">
-							<div class="col-md-6 col-md-offset-3 col-md-pull-3 animate-box"
-								data-animate-effect="fadeInLeft">
-								<span class="heading-meta">Experience</span>
-								<h2 class="colorlib-heading animate-box">Work Experience</h2>
-							</div>
-						</div>
-						<div class="row">
-							<div class="col-md-12">
-								<div class="timeline-centered">
-
-
-
-									<article class="timeline-entry animate-box" data-animate-effect="fadeInLeft">
-										<div class="timeline-entry-inner">
-
-											<div class="timeline-icon color-4">
-												<i class="icon-pen2"></i>
-											</div>
-
-											<div class="timeline-label">
-												<h2><a href="">Lecturer</a> <span>10/2024 - Present</span><span>
-														</br>(Şanlıurfa/Türkiye)</span></h2>
-												<p>I’m thrilled to be working as a tenured Lecturer at Harran University
-													in the historic city of Şanlıurfa, Türkiye, famously known for
-													Göbeklitepe, the cradle of civilization! This Fall, I thought four
-													exciting courses, with another four lined up for Spring 2025, all
-													for the dynamic Department of Computer Engineering. It’s a privilege
-													to share knowledge in such a vibrant and culturally rich setting!
-												</p>
-											</div>
-										</div>
-									</article>
-
-									<article class="timeline-entry animate-box" data-animate-effect="fadeInLeft">
-										<div class="timeline-entry-inner">
-
-											<div class="timeline-icon color-5">
-												<i class="icon-pen2"></i>
-											</div>
-
-											<div class="timeline-label">
-												<h2><a href="">Freelance</a> <span>09/2022 - 06/2024</span><span>
-														</br>(Ankara/Türkiye)</span></h2>
-												<p>I have worked as a Freelance Data Scientist in various companies,
-													where I had the opportunity to showcase my knowledge in the
-													areas of
-													Data Science, Web Development, IT Directorship, Technical
-													Architecture, Project Management and Python Development.</p>
-											</div>
-										</div>
-									</article>
-
-
-									<article class="timeline-entry animate-box" data-animate-effect="fadeInLeft">
-										<div class="timeline-entry-inner">
-
-											<div class="timeline-icon color-1">
-												<i class="icon-pen2"></i>
-											</div>
-
-											<div class="timeline-label">
-												<h2><a href="http://www.etiya.com/home">Etiya - Full Stack
-														Developer</a>
-													<span>09/2014 - 02/2016</span><span>
-														</br>(Istanbul/Türkiye)</span>
-												</h2>
-												<p>This is one of the big tech companies in Türkiye that consists of
-													around 500 employees in three local and two international
-													branches.
-													I was responsible to develop Java based solutions in Telaura
-													framework with a team of 40 people in Agile Development style
-													for
-													the third biggest telecom company in Türkiye called Turk Telekom
-													Mobile.</p>
-											</div>
-										</div>
-									</article>
-
-
-									<article class="timeline-entry animate-box" data-animate-effect="fadeInRight">
-										<div class="timeline-entry-inner">
-											<div class="timeline-icon color-2">
-												<i class="icon-pen2"></i>
-											</div>
-											<div class="timeline-label">
-												<h2><a href="http://solidict.com/">Solid-ICT - Java EE Software
-														Engineer</a> <span>01/2014 -
-														09/2014</span><span></br>(Istanbul/Türkiye)</span></h2>
-												<p>My role was in back-end solutions team. I was responsible to
-													develop
-													and support Java Web and back-end projects that use Spring
-													Framework
-													with dependencies such as Thymeleaf, Guava, and Apache Shiro.
-												</p>
-											</div>
-										</div>
-									</article>
-
-									<article class="timeline-entry animate-box" data-animate-effect="fadeInLeft">
-										<div class="timeline-entry-inner">
-											<div class="timeline-icon color-3">
-												<i class="icon-pen2"></i>
-											</div>
-											<div class="timeline-label">
-												<h2><a href="http://www.innova.com.tr/en/">Innova - Jr. CRM
-														Consultant</a> <span>06/2013 -
-														01/2014</span><span></br>(Istanbul/Türkiye)</span></h2>
-												<p>I worked in Business Solutions Department where we were
-													developing
-													Microsoft Dynamics CRM for International Companies.</p>
-											</div>
-										</div>
-									</article>
-									<article class="timeline-entry animate-box" data-animate-effect="fadeInTop">
-										<div class="timeline-entry-inner">
-											<div class="timeline-icon color-4">
-												<i class="icon-pen2"></i>
-											</div>
-											<div class="timeline-label">
-												<h2><a href="http://www.mezungroup.com/">Mezun Group - PHP and
-														Android
-														Developer</a> <span>08/2012 -
-														02/2013</span><span></br>(Istanbul/Türkiye)</span></h2>
-												<p>The role of my team was to develope Affiliate module of Mezun
-													Group
-													and developed front-end and some back-end component of Mezun
-													Call
-													Android App.</p>
-											</div>
-										</div>
-									</article>
-
-									<article class="timeline-entry animate-box" data-animate-effect="fadeInLeft">
-										<div class="timeline-entry-inner">
-											<div class="timeline-icon color-5">
-												<i class="icon-pen2"></i>
-											</div>
-											<div class="timeline-label">
-												<h2><a href="https://international.bahcesehir.edu.tr/">Bahçeşehir
-														University Corporate Communications Department</a>
-													<span>07/2009
-														- 10/2009</span><span></br>(Istanbul/Türkiye)</span>
-												</h2>
-												<p>I worked as a student representative of the university within the
-													main campus and also in a job career fair. Additionally, I
-													worked in
-													a call-center to phone thousands of student candidates to offer
-													them
-													the prospectus of the university.</p>
-											</div>
-										</div>
-									</article>
-
-									<article class="timeline-entry begin animate-box"
-										data-animate-effect="fadeInBottom">
-										<div class="timeline-entry-inner">
-											<div class="timeline-icon color-none">
-											</div>
-										</div>
-									</article>
-								</div>
-							</div>
-						</div>
-					</div>
-				</section>
-
-				<section class="colorlib-blog" data-section="activities">
-					<div class="colorlib-narrow-content">
-						<div class="row">
-							<div class="col-md-6 col-md-offset-3 col-md-pull-3 animate-box"
-								data-animate-effect="fadeInLeft">
-								<span class="heading-meta">Activities</span>
-								<h2 class="colorlib-heading animate-box">activities & awards</h2>
-							</div>
-						</div>
-
-						<div class="row">
-							<div class="col-md-12 animate-box" data-animate-effect="fadeInLeft">
-								<p><i class="icon-chevron-right"></i><strong> 05 Jul'18</strong> Proudly been
-									awarded a
-									Student Volunteer(SV) role in one of the most prestigious conference(<a
-										target="_blank" href="https://recsys.acm.org/recsys19/">13th ACM RecSys
-									</a>) in
-									Recommender Systems field which will be held in Denmark, Copenhagen between
-									16-20
-									September 2019. The award will allow me to make new connection with other SVs
-									and
-									conference organisers,
-									Additionally, I will be exempt from paying registration fees of about
-									<b>500£</b>
-								</p>
-								<img width=825 src="images/denmark.png">
-							</div>
-							(Image source: Official 13th ACM RecSys page)
-						</div>
-						</br>
-						</br>
-						<div class="row">
-							<div class="col-md-12 animate-box" data-animate-effect="fadeInLeft">
-								<p><i class="icon-chevron-right"></i><strong>Oct'18</strong> It is an honour to be
-									granted Bristol University Alumni Travel Grant by Alumni comitee. The fund will
-									be
-									used during my trip to DMRS workshop in Italy, Bolzano. More detail above in
-									News
-									section.</p>
-								<p><img width="100px" src="images/alumnic.png"></p>
-							</div>
-						</div>
-						<div class="row">
-							<div class="col-md-12 animate-box" data-animate-effect="fadeInLeft">
-								<p><i class="icon-chevron-right"></i><strong>24/25 Oct'18</strong> Great news from
-									the
-									lates event I participated. I have participated a two-days Hackhaton organised
-									by <a
-										href="https://www.connectingbristol.org/engaging-on-open-data-in-the-2018-bbc-digital-cities-week/"
-										target="_blank">ConnectingBristol</a> and <a
-										href="https://www.bbc.co.uk/academy/en/articles/art20181003100608771"> BBC
-										Digital Cities Week</a>. My team Eco Road Warriors has won the best
-									application
-									award and also won a prize in following <a
-										href="https://www.connectingbristol.org/engaging-on-open-data-in-the-2018-bbc-digital-cities-week/">Our
-										Data Projects – Pitching and Commissioning Session</a> event. </p>
-								<img src="images/open-data-hackathon-picture-3.png">
-							</div>
-						</div>
-					</div>
-				</section>
-
-				<section class="colorlib-contact" data-section="contact">
-					<div class="colorlib-narrow-content">
-						<div class="row">
-							<div class="col-md-6 col-md-offset-3 col-md-pull-3 animate-box"
-								data-animate-effect="fadeInLeft">
-								<span class="heading-meta">Get in Touch</span>
-								<h2 class="colorlib-heading">Contact</h2>
-							</div>
-						</div>
-						<div class="row">
-							<div class="col-md-12">
-								<div class="colorlib-feature colorlib-feature-sm animate-box"
-									data-animate-effect="fadeInLeft">
-									<div class="colorlib-icon">
-										<i class="icon-globe-outline "></i>
-									</div>
-									<div class="colorlib-text">
-										<p><a href="#">dr.ercan.ezin@gmail.com</a></p>
-									</div>
-								</div>
-
-								<div class="colorlib-feature colorlib-feature-sm animate-box"
-									data-animate-effect="fadeInLeft">
-									<div class="colorlib-icon">
-										<i class="icon-map"></i>
-									</div>
-									<div class="colorlib-text">
-										<p>Ankara, Türkiye</p>
-									</div>
-								</div>
-							</div>
-						</div>
-
-						<div class="text-center"
-							style="display: flex; justify-content: center; align-items: center; flex-wrap: wrap; gap: 30px; margin-top: 100px;">
-							<img src="images/harran_logo.jpg" alt="Harran University"
-								style="max-width: 100px; max-height: 100px; object-fit: contain;">
-							<img src="images/bristol_logo.jpg" alt="University of Bristol"
-								style="max-width: 100px; max-height: 100px; object-fit: contain;">
-							<img src="images/essex_logo.jpg" alt="Essex University"
-								style="max-width: 100px; max-height: 100px; object-fit: contain;">
-							<img src="images/bau_logo.jpg" alt="Bahcesehir University"
-								style="max-width: 100px; max-height: 100px; object-fit: contain;">
-							<img src="images/kaplan_logo.jpg" alt="Kaplan International"
-								style="max-width: 100px; max-height: 100px; object-fit: contain;">
-							<img src="images/epita_logo.jpg" alt="Epita"
-								style="max-width: 100px; max-height: 100px; object-fit: contain;">
-						</div>
-
-					</div>
-				</section>
-
-
-				<div style="margin-top: 50px;" class="text-center">
+					</li>
+				</ul>
+
+				<div class="separator"></div>
+				<p class="side-label">Profiles</p>
+				<ul class="profiles">
+					<li><a href="https://akademik.yok.gov.tr/academician-details?authorGuidId=0DEC553C30F02937"><img src="assets/img/profiles/yok.png" alt="" width="24" height="24">YÖK Akademik</a></li>
+					<li><a href="https://orcid.org/0000-0003-0231-9456"><img src="assets/img/profiles/orcid.png" alt="" width="24" height="24">ORCID</a></li>
+					<li><a href="https://www.webofscience.com/wos/author/rid/KII-2938-2024"><img src="assets/img/profiles/wos.png" alt="" width="24" height="24">Web of Science</a></li>
+					<li><a href="https://scholar.google.com/citations?user=jhIZYCwAAAAJ&amp;hl=en"><img src="assets/img/profiles/scholar.png" alt="" width="24" height="24">Google Scholar</a></li>
+					<li><a href="https://www.linkedin.com/in/ercanezin/"><img src="assets/img/profiles/linkedin.png" alt="" width="24" height="24">LinkedIn</a></li>
+					<li><a href="https://github.com/ercanezin"><img src="assets/img/profiles/github.png" alt="" width="24" height="24">GitHub</a></li>
+				</ul>
+			</div>
+		</aside>
+
+		<!-- ============================ MAIN ============================ -->
+		<main class="main card" id="main" tabindex="-1">
+
+			<nav class="topnav" aria-label="Sections">
+				<ul>
+					<li><a href="#about" data-nav>About</a></li>
+					<li><a href="#publications" data-nav>Publications</a></li>
+					<li><a href="#experience" data-nav>Experience</a></li>
+					<li><a href="#education" data-nav>Education</a></li>
+					<li><a href="#blog" data-nav>Blog</a></li>
+					<li><a href="#teaching" data-nav>Teaching</a></li>
+				</ul>
+			</nav>
+
+			<!-- ======================== ABOUT ======================== -->
+			<article class="tab is-active" id="about" data-tab tabindex="-1" aria-labelledby="about-title">
+				<header class="section-head">
+					<h2 class="section-title" id="about-title">Welcome</h2>
+				</header>
+
+				<div class="lead">
 					<p>
-						<small>Copyright
-							<script>document.write(new Date().getFullYear());</script>
-							by <a href="https://colorlib.com" target="_blank">Colorlib</a></span>
-						</small>
+						Dr. Ercan Ezin is a tenured Lecturer in Computer Engineering at
+						<a href="https://www.harran.edu.tr/">Harran University</a>, Türkiye, currently working as an AI Expert at the
+						<a href="https://www.yok.gov.tr/en">Council of Higher Education (Yükseköğretim Kurulu – YÖK)</a> in Ankara.
+						He is a researcher at the <a href="https://anlamnet.ankara.edu.tr/en/mainpage/">ANLAM-NET Lab</a>
+						(Advanced Natural Language, Multimedia and Network Laboratory) at Ankara University.
+					</p>
+					<p>
+						His current research interests span natural language processing, large language models, multimodal AI,
+						recommendation systems, and explainable/reliable AI for real-world applications. His work emphasises rigorous
+						evaluation, practical deployment considerations, and the development of data-driven systems that support human
+						decisions in areas such as marketing, tourism, education, and software-intensive domains.
+					</p>
+					<p>
+						Before joining academia full-time, Dr. Ezin worked across industry roles including Java/software engineering,
+						data science, full-stack development, and IT management.
+						He holds an MSc in Advanced Computer Science from the <a href="https://www.essex.ac.uk/">University of Essex</a>, UK,
+						and dual BSc degrees, in Software Engineering and in Computer Education and Instructional Technologies, from
+						<a href="https://bau.edu.tr/">Bahçeşehir University</a>, İstanbul.
 					</p>
 				</div>
 
-			</div><!-- end:colorlib-main -->
-		</div><!-- end:container-wrap -->
-	</div><!-- end:colorlib-page -->
+				<h3 class="sub-title">Research Focus</h3>
+				<ul class="focus-grid">
+					<li class="focus-item">
+						<span class="focus-icon" style="--c: var(--c1)"><svg class="ic" aria-hidden="true"><use href="#i-msg"/></svg></span>
+						<div>
+							<h4>NLP &amp; Large Language Models</h4>
+							<p>Sentiment analysis for low-resource languages, LLM-assisted annotation, and multi-agent LLM reasoning.</p>
+						</div>
+					</li>
+					<li class="focus-item">
+						<span class="focus-icon" style="--c: var(--c4)"><svg class="ic" aria-hidden="true"><use href="#i-image"/></svg></span>
+						<div>
+							<h4>Multimodal AI</h4>
+							<p>Controlled evaluation of text and image models and the score discrepancies between modalities.</p>
+						</div>
+					</li>
+					<li class="focus-item">
+						<span class="focus-icon" style="--c: var(--c5)"><svg class="ic" aria-hidden="true"><use href="#i-compass"/></svg></span>
+						<div>
+							<h4>Recommender Systems</h4>
+							<p>Context-aware and group recommendation for tourism, and algorithmic personalisation in marketing.</p>
+						</div>
+					</li>
+					<li class="focus-item">
+						<span class="focus-icon" style="--c: var(--c2)"><svg class="ic" aria-hidden="true"><use href="#i-shield"/></svg></span>
+						<div>
+							<h4>Reliable &amp; Explainable AI</h4>
+							<p>Reliability, verifiability, and leakage-aware validation of AI systems used for decision support.</p>
+						</div>
+					</li>
+				</ul>
+			</article>
 
-	<!-- jQuery -->
-	<script src="js/jquery.min.js"></script>
-	<!-- jQuery Easing -->
-	<script src="js/jquery.easing.1.3.js"></script>
-	<!-- Bootstrap -->
-	<script src="js/bootstrap.min.js"></script>
-	<!-- Waypoints -->
-	<script src="js/jquery.waypoints.min.js"></script>
-	<!-- Flexslider -->
-	<script src="js/jquery.flexslider-min.js"></script>
-	<!-- Owl carousel -->
-	<script src="js/owl.carousel.min.js"></script>
-	<!-- Counters -->
-	<script src="js/jquery.countTo.js"></script>
+			<!-- ======================== PUBLICATIONS ======================== -->
+			<article class="tab" id="publications" data-tab tabindex="-1" aria-labelledby="publications-title">
+				<header class="section-head">
+					<h2 class="section-title" id="publications-title">Publications</h2>
+				</header>
+
+				<h3 class="pub-year">2026</h3>
+				<ol class="pubs">
+					<li class="pub">
+						<a class="pub-title" href="https://doi.org/10.3390/app162010105">A Controlled Reanalysis of KIDO: Text Variants, Image-Model Configurations, and Cross-Modal Score Discrepancy</a>
+						<p class="pub-authors"><span class="me">Ezin, E.</span></p>
+						<p class="pub-venue"><cite>Applied Sciences</cite>, 16(20), 10105. MDPI.</p>
+						<div class="pub-tags">
+							<span class="tag">Journal article</span>
+							<span class="tag tag-index">SCI-E indexed</span>
+							<a class="tag tag-link" href="https://doi.org/10.3390/app162010105">DOI 10.3390/app162010105 <svg class="ic" aria-hidden="true"><use href="#i-ext"/></svg></a>
+						</div>
+					</li>
+					<li class="pub">
+						<a class="pub-title" href="https://doi.org/10.38066/hy.f70r415p.hph">Recommender Systems as the New Marketing Engine: How Algorithmic Personalisation Rewires Segmentation, Targeting, and Consumer Choice</a>
+						<p class="pub-authors"><span class="me">Ezin, E.</span></p>
+						<p class="pub-venue">In A. V. Ertemel (Ed.), <cite>Intelligence Rewired: Rethinking Marketing and Management in the Age of AI</cite> (pp. 77–105). Haliç Publishing House.</p>
+						<div class="pub-tags">
+							<span class="tag">Book chapter</span>
+							<a class="tag tag-link" href="https://doi.org/10.38066/hy.f70r415p.hph">DOI 10.38066/hy.f70r415p.hph <svg class="ic" aria-hidden="true"><use href="#i-ext"/></svg></a>
+						</div>
+					</li>
+					<li class="pub">
+						<a class="pub-title" href="https://doi.org/10.1109/UBMK71847.2026.11745228">A Leakage-Aware Temporal Validation Framework for Non-Stationary Regression on SCADA Wind Power Curves</a>
+						<p class="pub-authors"><span class="me">Ezin, E.</span>, İnağ, T., &amp; İnağ, Y.</p>
+						<p class="pub-venue"><cite>2026 11th International Conference on Computer Science and Engineering (UBMK)</cite>, İstanbul, Türkiye, pp. 523–528. IEEE.</p>
+						<div class="pub-tags">
+							<span class="tag">Conference paper</span>
+							<a class="tag tag-link" href="https://doi.org/10.1109/UBMK71847.2026.11745228">DOI 10.1109/UBMK71847.2026.11745228 <svg class="ic" aria-hidden="true"><use href="#i-ext"/></svg></a>
+						</div>
+					</li>
+					<li class="pub">
+						<a class="pub-title" href="https://doi.org/10.1109/SIU71813.2026.11636620">A Multi-Agent Reasoning Reliability Framework for Autonomous Decision Support and Its Preliminary Evaluation on StrategyQA</a>
+						<p class="pub-authors"><span class="me">Ezin, E.</span></p>
+						<p class="pub-venue"><cite>2026 34th Signal Processing and Communications Applications Conference (SIU)</cite>, İstanbul, Türkiye, pp. 1–4. IEEE.</p>
+						<div class="pub-tags">
+							<span class="tag">Conference paper</span>
+							<a class="tag tag-link" href="https://doi.org/10.1109/SIU71813.2026.11636620">DOI 10.1109/SIU71813.2026.11636620 <svg class="ic" aria-hidden="true"><use href="#i-ext"/></svg></a>
+						</div>
+					</li>
+					<li class="pub">
+						<a class="pub-title" href="https://doi.org/10.1109/ICHORA69329.2026.11537240">Behavioural Traits in LLM Group Deliberation: An Opinion-Dynamics Study</a>
+						<p class="pub-authors"><span class="me">Ezin, E.</span>, &amp; İnağ, Y.</p>
+						<p class="pub-venue"><cite>2026 8th International Congress on Human-Computer Interaction, Optimization and Robotic Applications (ICHORA)</cite>, Ankara, Türkiye, pp. 1–6. IEEE.</p>
+						<div class="pub-tags">
+							<span class="tag">Conference paper</span>
+							<a class="tag tag-link" href="https://doi.org/10.1109/ICHORA69329.2026.11537240">DOI 10.1109/ICHORA69329.2026.11537240 <svg class="ic" aria-hidden="true"><use href="#i-ext"/></svg></a>
+						</div>
+					</li>
+					<li class="pub">
+						<a class="pub-title" href="https://www.uyik.org/">Reliability and Verifiability in AI-Assisted Applied Statistics: A Synthetic Macroeconomic Forecasting Case Study</a>
+						<p class="pub-authors">Baimukhamedova, A. M., &amp; <span class="me">Ezin, E.</span></p>
+						<p class="pub-venue"><cite>VII. International Applied Statistics Congress (UYIK 2026)</cite>, İstanbul, Türkiye. Proceedings ISBN 978-625-90604-0-8.</p>
+						<div class="pub-tags">
+							<span class="tag">Conference paper</span>
+							<a class="tag tag-link" href="https://www.uyik.org/">Congress website <svg class="ic" aria-hidden="true"><use href="#i-ext"/></svg></a>
+						</div>
+					</li>
+				</ol>
+
+				<h3 class="pub-year">2025</h3>
+				<ol class="pubs">
+					<li class="pub">
+						<a class="pub-title" href="https://doi.org/10.1109/ACCESS.2025.3566000">Advancing Sentiment Analysis for Low-Resource Languages Using Fine-Tuned LLMs: A Case Study of Customer Reviews in Turkish Language</a>
+						<p class="pub-authors">Savran Kiziltepe, R., <span class="me">Ezin, E.</span>, Yentür, Ö., Basbrain, A. M., &amp; Karakus, M.</p>
+						<p class="pub-venue"><cite>IEEE Access</cite>, 13, 77382–77394.</p>
+						<div class="pub-tags">
+							<span class="tag">Journal article</span>
+							<span class="tag tag-index">SCI-E indexed</span>
+							<a class="tag tag-link" href="https://doi.org/10.1109/ACCESS.2025.3566000">DOI 10.1109/ACCESS.2025.3566000 <svg class="ic" aria-hidden="true"><use href="#i-ext"/></svg></a>
+						</div>
+					</li>
+				</ol>
+
+				<h3 class="pub-year">2024</h3>
+				<ol class="pubs">
+					<li class="pub">
+						<a class="pub-title" href="https://doi.org/10.1109/UBMK63289.2024.10773485">Using LLMs for Annotation and ML Methods for Comparative Analysis of Large-Scale Turkish Sentiment Datasets</a>
+						<p class="pub-authors"><span class="me">Ezin, E.</span>, Savran Kiziltepe, R., &amp; Karakus, M.</p>
+						<p class="pub-venue"><cite>2024 9th International Conference on Computer Science and Engineering (UBMK)</cite>, Antalya, Türkiye, pp. 204–209. IEEE.</p>
+						<div class="pub-tags">
+							<span class="tag">Conference paper</span>
+							<a class="tag tag-link" href="https://doi.org/10.1109/UBMK63289.2024.10773485">DOI 10.1109/UBMK63289.2024.10773485 <svg class="ic" aria-hidden="true"><use href="#i-ext"/></svg></a>
+						</div>
+					</li>
+					<li class="pub">
+						<a class="pub-title" href="https://doi.org/10.1109/ASYU62119.2024.10757130">A Comparative Study of ML Models on Large-Scale Turkish Sentiment Datasets</a>
+						<p class="pub-authors">Savran Kiziltepe, R., <span class="me">Ezin, E.</span>, &amp; Karakus, M.</p>
+						<p class="pub-venue"><cite>2024 Innovations in Intelligent Systems and Applications Conference (ASYU)</cite>, Ankara, Türkiye, pp. 1–6. IEEE.</p>
+						<div class="pub-tags">
+							<span class="tag">Conference paper</span>
+							<a class="tag tag-link" href="https://doi.org/10.1109/ASYU62119.2024.10757130">DOI 10.1109/ASYU62119.2024.10757130 <svg class="ic" aria-hidden="true"><use href="#i-ext"/></svg></a>
+						</div>
+					</li>
+					<li class="pub">
+						<a class="pub-title" href="https://research-information.bris.ac.uk/en/studentTheses/towards-context-aware-recommender-systems-for-tourists">Towards Context-Aware Recommender Systems for Tourists</a>
+						<p class="pub-authors"><span class="me">Ezin, E.</span></p>
+						<p class="pub-venue">PhD thesis, <cite>University of Bristol</cite>, United Kingdom.</p>
+						<div class="pub-tags">
+							<span class="tag">PhD thesis</span>
+							<a class="tag tag-link" href="https://research-information.bris.ac.uk/en/studentTheses/towards-context-aware-recommender-systems-for-tourists">University of Bristol Research Portal <svg class="ic" aria-hidden="true"><use href="#i-ext"/></svg></a>
+						</div>
+					</li>
+				</ol>
+
+				<h3 class="pub-year">2019</h3>
+				<ol class="pubs">
+					<li class="pub">
+						<a class="pub-title" href="https://doi.org/10.1109/SMC.2019.8914224">Group Decision Making with Collaborative-Filtering ‘in the loop’: interaction-based preference and trust elicitation</a>
+						<p class="pub-authors"><span class="me">Ezin, E.</span>, Palomares, I., &amp; Neve, J.</p>
+						<p class="pub-venue"><cite>2019 IEEE International Conference on Systems, Man and Cybernetics (SMC)</cite>, Bari, Italy, pp. 4044–4049. IEEE.</p>
+						<div class="pub-tags">
+							<span class="tag">Conference paper</span>
+							<a class="tag tag-link" href="https://doi.org/10.1109/SMC.2019.8914224">DOI 10.1109/SMC.2019.8914224 <svg class="ic" aria-hidden="true"><use href="#i-ext"/></svg></a>
+						</div>
+					</li>
+					<li class="pub">
+						<a class="pub-title" href="https://ceur-ws.org/Vol-2435/paper7.pdf">Balancing Preferences, Popularity and Location in Context-Aware Restaurant Deal Recommendation: A Bristol, Cardiff and Brighton Case Study</a>
+						<p class="pub-authors"><span class="me">Ezin, E.</span>, Alcaraz-Herrera, H., &amp; Palomares, I.</p>
+						<p class="pub-venue"><cite>Workshop on Recommenders in Tourism (RecTour 2019), co-located with the 13th ACM Conference on Recommender Systems (RecSys 2019)</cite>, Copenhagen, Denmark. CEUR Workshop Proceedings, Vol. 2435, pp. 38–41.</p>
+						<div class="pub-tags">
+							<span class="tag">Workshop paper</span>
+							<a class="tag tag-link" href="https://ceur-ws.org/Vol-2435/paper7.pdf">PDF · CEUR-WS <svg class="ic" aria-hidden="true"><use href="#i-ext"/></svg></a>
+						</div>
+					</li>
+				</ol>
+
+				<h3 class="pub-year">2018</h3>
+				<ol class="pubs">
+					<li class="pub">
+						<a class="pub-title" href="https://ceur-ws.org/Vol-2216/healthRecSys18_paper_8.pdf">‘Fitness that Fits’: A Prototype Model for Workout Video Recommendation</a>
+						<p class="pub-authors"><span class="me">Ezin, E.</span>, Kim, E., &amp; Palomares, I.</p>
+						<p class="pub-venue"><cite>3rd International Workshop on Health Recommender Systems (HealthRecSys 2018), co-located with the 12th ACM Conference on Recommender Systems (RecSys 2018)</cite>, Vancouver, Canada. CEUR Workshop Proceedings, Vol. 2216, pp. 40–45.</p>
+						<div class="pub-tags">
+							<span class="tag">Workshop paper</span>
+							<a class="tag tag-link" href="https://ceur-ws.org/Vol-2216/healthRecSys18_paper_8.pdf">PDF · CEUR-WS <svg class="ic" aria-hidden="true"><use href="#i-ext"/></svg></a>
+						</div>
+					</li>
+					<li class="pub">
+						<a class="pub-title" href="https://dmrsworkshop.inf.unibz.it/">Group decision making with recommendations ‘in the loop’: application to trip planning through video watching</a>
+						<p class="pub-authors"><span class="me">Ezin, E.</span>, Neve, J., &amp; Palomares, I.</p>
+						<p class="pub-venue"><cite>International Workshop on Decision Making and Recommender Systems (DMRS 2018)</cite>, Bozen-Bolzano, Italy.</p>
+						<div class="pub-tags">
+							<span class="tag">Extended abstract</span>
+							<a class="tag tag-link" href="https://dmrsworkshop.inf.unibz.it/">Workshop website <svg class="ic" aria-hidden="true"><use href="#i-ext"/></svg></a>
+						</div>
+					</li>
+				</ol>
+			</article>
+
+			<!-- ======================== EXPERIENCE ======================== -->
+			<article class="tab" id="experience" data-tab tabindex="-1" aria-labelledby="experience-title">
+				<header class="section-head">
+					<h2 class="section-title" id="experience-title">Work Experience</h2>
+				</header>
+
+				<ol class="timeline">
+					<li class="tl-item">
+						<span class="tl-icon"><svg class="ic" aria-hidden="true"><use href="#i-briefcase"/></svg></span>
+						<div class="tl-card">
+							<div class="tl-head">
+								<h3 class="tl-title">Lecturer (Tenured)</h3>
+								<span class="tl-date">Oct 2024 – Present</span>
+							</div>
+							<p class="tl-org"><a href="https://www.harran.edu.tr/">Harran University, Department of Computer Engineering</a> <span class="loc">· Şanlıurfa, Türkiye</span></p>
+							<div class="tl-body">
+								<p>Tenured lecturer in the historic city of Şanlıurfa, home of Göbeklitepe. I have taught courses such as Web Programming, Agile Methods in Software Development, and Vocational English (see <a href="#teaching">Teaching</a>).</p>
+							</div>
+							<div class="tl-sub">
+								<div class="tl-head">
+									<h4 class="tl-title">AI Expert</h4>
+									<span class="tl-date">Aug 2025 – Present</span>
+								</div>
+								<p class="tl-org"><a href="https://www.yok.gov.tr/en">Council of Higher Education (Yükseköğretim Kurulu – YÖK)</a> <span class="loc">· Ankara, Türkiye</span></p>
+								<div class="tl-body">
+									<p>On appointment (görevlendirme) from Harran University. I conduct research and implement LLM-based tools.</p>
+								</div>
+							</div>
+						</div>
+					</li>
+					<li class="tl-item">
+						<span class="tl-icon"><svg class="ic" aria-hidden="true"><use href="#i-briefcase"/></svg></span>
+						<div class="tl-card">
+							<div class="tl-head">
+								<h3 class="tl-title">Freelance Data Scientist</h3>
+								<span class="tl-date">Sep 2022 – Jun 2024</span>
+							</div>
+							<p class="tl-org">Self-employed <span class="loc">· Ankara, Türkiye</span></p>
+							<div class="tl-body">
+								<p>I worked with two companies as a freelance data scientist. On an AI-based booking product, I moved from data scientist to acting director, defining the technical architecture and hiring a ten-person Scrum team.</p>
+							</div>
+						</div>
+					</li>
+					<li class="tl-item">
+						<span class="tl-icon"><svg class="ic" aria-hidden="true"><use href="#i-briefcase"/></svg></span>
+						<div class="tl-card">
+							<div class="tl-head">
+								<h3 class="tl-title">AI Researcher</h3>
+								<span class="tl-date">Sep 2018 – Sep 2022</span>
+							</div>
+							<p class="tl-org"><a href="https://www.bristol.ac.uk/">University of Bristol</a> <span class="loc">· Bristol, United Kingdom</span></p>
+							<div class="tl-body">
+								<p>I published papers at leading venues in recommender systems and worked as a teaching assistant on introductory Python, machine learning, and data science units. My responsibilities included:</p>
+								<ul>
+									<li>Facilitating lab sessions and helping students understand key concepts and coding techniques.</li>
+									<li>Managing a team of 18 teaching assistants so that students received enough support and assignments were processed fairly.</li>
+									<li>Developing novel ML models and analysing datasets from various sources for experiments, visualising results with Jupyter, Matplotlib, and Seaborn.</li>
+								</ul>
+							</div>
+							<div class="tl-sub">
+								<div class="tl-head">
+									<h4 class="tl-title">Data Scientist (Part-time)</h4>
+									<span class="tl-date">Feb 2019 – Jan 2020</span>
+								</div>
+								<p class="tl-org"><a href="https://www.bristol.ac.uk/">University of Bristol</a> <span class="loc">· Bristol, United Kingdom</span></p>
+								<div class="tl-body">
+									<p>I analysed a NoSQL database of four years of transaction data and built a recommender-system API framework for Wriggle, a restaurant-deal app that operated in the South West of England. The project used user context to recommend personalised deals, with a Django REST back end for test and production servers.</p>
+								</div>
+							</div>
+						</div>
+					</li>
+					<li class="tl-item">
+						<span class="tl-icon"><svg class="ic" aria-hidden="true"><use href="#i-briefcase"/></svg></span>
+						<div class="tl-card">
+							<div class="tl-head">
+								<h3 class="tl-title">Java Developer</h3>
+								<span class="tl-date">Sep 2014 – Feb 2016</span>
+							</div>
+							<p class="tl-org"><a href="https://www.etiya.com/">Etiya</a> <span class="loc">· İstanbul, Türkiye</span></p>
+							<div class="tl-body">
+								<p>Founded in 2004, Etiya builds AI-native customer engagement and business support software for telecom operators and today has more than 1,500 employees in over 10 offices across 7 countries. I developed Java-based solutions on the Telaura framework with Oracle ADF in a 40-person Agile team, working for Türk Telekom, one of Türkiye's largest telecom operators.</p>
+							</div>
+						</div>
+					</li>
+					<li class="tl-item">
+						<span class="tl-icon"><svg class="ic" aria-hidden="true"><use href="#i-briefcase"/></svg></span>
+						<div class="tl-card">
+							<div class="tl-head">
+								<h3 class="tl-title">Java Developer</h3>
+								<span class="tl-date">Jan 2014 – Sep 2014</span>
+							</div>
+							<p class="tl-org"><a href="https://www.solidict.com/">Solid-ICT</a> <span class="loc">· İstanbul, Türkiye</span></p>
+							<div class="tl-body">
+								<p>Founded in İstanbul in 2011, Solid-ICT builds software, AI, and mobile products for clients in media, retail, finance, and telecom, including Turkcell. I worked in the back-end solutions team, developing and supporting Java web and back-end projects with the Spring Framework and libraries such as Thymeleaf, Guava, and Apache Shiro.</p>
+							</div>
+						</div>
+					</li>
+					<li class="tl-item">
+						<span class="tl-icon"><svg class="ic" aria-hidden="true"><use href="#i-briefcase"/></svg></span>
+						<div class="tl-card">
+							<div class="tl-head">
+								<h3 class="tl-title">Junior CRM Consultant</h3>
+								<span class="tl-date">Jun 2013 – Jan 2014</span>
+							</div>
+							<p class="tl-org"><a href="https://www.innova.com.tr/en/">İnnova</a> <span class="loc">· İstanbul, Türkiye</span></p>
+							<div class="tl-body">
+								<p>Founded in 1999 and a Türk Telekom subsidiary since 2007, İnnova is one of Türkiye's leading IT solutions companies, with more than 1,400 employees. I worked in the Business Solutions Department, developing Microsoft Dynamics CRM solutions for international companies.</p>
+							</div>
+						</div>
+					</li>
+					<li class="tl-item">
+						<span class="tl-icon"><svg class="ic" aria-hidden="true"><use href="#i-briefcase"/></svg></span>
+						<div class="tl-card">
+							<div class="tl-head">
+								<h3 class="tl-title">Student Representative</h3>
+								<span class="tl-date">Jul 2009 – Oct 2009</span>
+							</div>
+							<p class="tl-org"><a href="https://bau.edu.tr/">Bahçeşehir University, Corporate Communications Department</a> <span class="loc">· İstanbul, Türkiye</span></p>
+							<div class="tl-body">
+								<p>I worked as a student representative of the university on the main campus and at a career fair. I also worked in the call centre, phoning thousands of prospective students to offer them the university prospectus.</p>
+							</div>
+						</div>
+					</li>
+				</ol>
+			</article>
+
+			<!-- ======================== EDUCATION ======================== -->
+			<article class="tab" id="education" data-tab tabindex="-1" aria-labelledby="education-title">
+				<header class="section-head">
+					<h2 class="section-title" id="education-title">Educational Background</h2>
+				</header>
+
+				<ol class="timeline">
+					<li class="tl-item">
+						<span class="tl-icon"><svg class="ic" aria-hidden="true"><use href="#i-cap"/></svg></span>
+						<div class="tl-card">
+							<div class="tl-head">
+								<h3 class="tl-title">PhD in Computer Science</h3>
+								<span class="tl-date">May 2018 – May 2024</span>
+							</div>
+							<p class="tl-org"><a href="https://www.bristol.ac.uk/">University of Bristol</a> <span class="loc">· Bristol, United Kingdom</span></p>
+							<dl class="facts">
+								<div><dt>Thesis</dt><dd><a href="https://research-information.bris.ac.uk/en/studentTheses/towards-context-aware-recommender-systems-for-tourists">Towards Context-Aware Recommender Systems for Tourists</a></dd></div>
+								<div><dt>Supervisor</dt><dd>Prof. Seth Bullock (<a href="https://seis.bristol.ac.uk/~sb15704/">web</a>)</dd></div>
+								<div><dt>Co-supervisor</dt><dd>Prof. Jonathan Lawry (<a href="https://research-information.bris.ac.uk/en/persons/jonathan-lawry">web</a>)</dd></div>
+								<div><dt>Scholarship</dt><dd>Full scholarship</dd></div>
+							</dl>
+						</div>
+					</li>
+					<li class="tl-item">
+						<span class="tl-icon"><svg class="ic" aria-hidden="true"><use href="#i-cap"/></svg></span>
+						<div class="tl-card">
+							<div class="tl-head">
+								<h3 class="tl-title">MSc in Advanced Computer Science</h3>
+								<span class="tl-date">Oct 2016 – Oct 2017</span>
+							</div>
+							<p class="tl-org"><a href="https://www.essex.ac.uk/">University of Essex</a> <span class="loc">· Colchester, United Kingdom</span></p>
+							<dl class="facts">
+								<div><dt>Thesis</dt><dd>Feasibility Study of Brain Computer Interface: P300-based Speller with Sequential Stimulation</dd></div>
+								<div><dt>Supervisors</dt><dd>Prof. Riccardo Poli (<a href="https://www.essex.ac.uk/people/polir15101/riccardo-poli">web</a>) and Dr. Caterina Cinel (<a href="https://www.essex.ac.uk/people/cinel32002/caterina-cinel">web</a>)</dd></div>
+								<div><dt>Scholarship</dt><dd>Full scholarship</dd></div>
+							</dl>
+						</div>
+					</li>
+					<li class="tl-item">
+						<span class="tl-icon"><svg class="ic" aria-hidden="true"><use href="#i-cap"/></svg></span>
+						<div class="tl-card">
+							<div class="tl-head">
+								<h3 class="tl-title">BSc in Software Engineering (Double Major)</h3>
+								<span class="tl-date">Sep 2009 – Jun 2013</span>
+							</div>
+							<p class="tl-org"><a href="https://bau.edu.tr/">Bahçeşehir University</a> <span class="loc">· İstanbul, Türkiye</span></p>
+							<dl class="facts">
+								<div><dt>Language of instruction</dt><dd>English</dd></div>
+								<div><dt>Scholarship</dt><dd>Full success scholarship</dd></div>
+								<div><dt>GPA</dt><dd>3.11/4.00</dd></div>
+							</dl>
+						</div>
+					</li>
+					<li class="tl-item">
+						<span class="tl-icon"><svg class="ic" aria-hidden="true"><use href="#i-cap"/></svg></span>
+						<div class="tl-card">
+							<div class="tl-head">
+								<h3 class="tl-title">BSc in Computer Education and Instructional Technologies</h3>
+								<span class="tl-date">Sep 2007 – Jun 2013</span>
+							</div>
+							<p class="tl-org"><a href="https://bau.edu.tr/">Bahçeşehir University</a> <span class="loc">· İstanbul, Türkiye</span></p>
+							<dl class="facts">
+								<div><dt>Language of instruction</dt><dd>English</dd></div>
+								<div><dt>Scholarship</dt><dd>Full success scholarship</dd></div>
+								<div><dt>GPA</dt><dd>3.63/4.00</dd></div>
+							</dl>
+						</div>
+					</li>
+					<li class="tl-item">
+						<span class="tl-icon"><svg class="ic" aria-hidden="true"><use href="#i-cap"/></svg></span>
+						<div class="tl-card">
+							<div class="tl-head">
+								<h3 class="tl-title">Erasmus Exchange Programme</h3>
+								<span class="tl-date">Feb 2011 – Jul 2011</span>
+							</div>
+							<p class="tl-org"><a href="https://www.epita.fr/en/">EPITA (École pour l'informatique et les techniques avancées)</a> <span class="loc">· Paris, France</span></p>
+						</div>
+					</li>
+				</ol>
+			</article>
+
+			<!-- ======================== BLOG ======================== -->
+			<article class="tab" id="blog" data-tab tabindex="-1" aria-labelledby="blog-title">
+				<header class="section-head">
+					<h2 class="section-title" id="blog-title">Blog</h2>
+				</header>
+
+				<p>Longer posts will appear here in time. For now, this page collects papers, articles, and books I have read recently and found worth sharing.</p>
+
+				<h3 class="sub-title">Recently Read</h3>
+				<div class="reading-wrap">
+					<ul class="reading">
+						<!--
+						To add an item, copy this block inside the list (newest first).
+						The "coming soon" message hides itself once the list has an item.
+
+						<li>
+							<a class="reading-title" href="https://doi.org/...">Title of the paper, article, or book</a>
+							<p class="reading-meta">Authors or source · Month YYYY</p>
+							<p class="reading-note">One or two sentences on why it is worth reading.</p>
+						</li>
+						-->
+					</ul>
+					<div class="empty-state">
+						<span class="icon-box"><svg class="ic" aria-hidden="true"><use href="#i-bookmark"/></svg></span>
+						<p>The first links are coming soon.</p>
+					</div>
+				</div>
+			</article>
+
+			<!-- ======================== TEACHING ======================== -->
+			<article class="tab" id="teaching" data-tab tabindex="-1" aria-labelledby="teaching-title">
+				<header class="section-head">
+					<h2 class="section-title" id="teaching-title">Teaching</h2>
+				</header>
+
+				<div class="notice" role="note">
+					<span class="icon-box"><svg class="ic" aria-hidden="true"><use href="#i-info"/></svg></span>
+					<div>
+						<h3>Not teaching at present</h3>
+						<p>I am currently on appointment (görevlendirme) to the Council of Higher Education (Yükseköğretim Kurulu – YÖK) in Ankara, where I work as an AI Expert, so I am not teaching any courses during this period.</p>
+						<p>Students who need to reach me can email
+							<a class="email" tabindex="0" data-u="dr.ercan.ezin" data-d="gmail.com">dr.ercan.ezin<span class="at" role="img" aria-label="at"><svg class="ic" aria-hidden="true"><use href="#i-at"/></svg></span>gmail.com</a>
+							or
+							<a class="email" tabindex="0" data-u="ercan.ezin" data-d="harran.edu.tr">ercan.ezin<span class="at" role="img" aria-label="at"><svg class="ic" aria-hidden="true"><use href="#i-at"/></svg></span>harran.edu.tr</a>.</p>
+						<div class="tr" lang="tr">
+							<p><strong>Sevgili öğrenciler,</strong> Yükseköğretim Kurulunda (YÖK) yapay zekâ uzmanı olarak görevlendirmede olduğum için şu anda ders vermiyorum. Benimle iletişime geçmek için
+								<a class="email" tabindex="0" data-u="dr.ercan.ezin" data-d="gmail.com">dr.ercan.ezin<span class="at" role="img" aria-label="et"><svg class="ic" aria-hidden="true"><use href="#i-at"/></svg></span>gmail.com</a>
+								veya
+								<a class="email" tabindex="0" data-u="ercan.ezin" data-d="harran.edu.tr">ercan.ezin<span class="at" role="img" aria-label="et"><svg class="ic" aria-hidden="true"><use href="#i-at"/></svg></span>harran.edu.tr</a>
+								adresine e-posta gönderebilirsiniz.</p>
+						</div>
+					</div>
+				</div>
+
+				<h3 class="sub-title">Courses Taught</h3>
 
 
-	<!-- MAIN JS -->
-	<script src="js/main.js"></script>
+				<section class="course-group" aria-labelledby="cg-harran">
+					<header class="course-group-head">
+						<h4 id="cg-harran">Harran University</h4>
+						<span class="course-group-meta">2024–2025</span>
+						<span class="course-group-sub">Department of Computer Engineering · Şanlıurfa</span>
+					</header>
+					<ul>
+						<li class="course">
+							<div><span class="course-name">Algorithms and Programming II</span><span class="course-tr" lang="tr">Algoritmalar ve Programlama II</span></div>
+							<span class="lang lang-tr">Turkish</span>
+						</li>
+						<li class="course">
+							<div><span class="course-name">Web Programming</span><span class="course-tr" lang="tr">Web Programlama</span></div>
+							<span class="lang lang-tr">Turkish</span>
+						</li>
+						<li class="course">
+							<div><span class="course-name">Agile Methods in Software Development</span><span class="course-tr" lang="tr">Yazılım Geliştirmede Çevik Yöntemler</span></div>
+							<span class="lang lang-tr">Turkish</span>
+						</li>
+						<li class="course">
+							<div><span class="course-name">Statistics</span><span class="course-tr" lang="tr">İstatistik</span></div>
+							<span class="lang lang-tr">Turkish</span>
+						</li>
+						<li class="course">
+							<div><span class="course-name">Vocational English I, II, III and IV</span><span class="course-tr" lang="tr">Mesleki Yabancı Dil I, II, III ve IV</span></div>
+							<span class="lang lang-en">English</span>
+						</li>
+						<li class="course">
+							<div><span class="course-name">Project</span><span class="course-tr" lang="tr">Proje</span></div>
+							<span class="lang lang-tr">Turkish</span>
+						</li>
+						<li class="course">
+							<div><span class="course-name">Graduation Project II</span><span class="course-tr" lang="tr">Bitirme Projesi II</span></div>
+							<span class="lang lang-tr">Turkish</span>
+						</li>
+					</ul>
+				</section>
 
+				<section class="course-group" aria-labelledby="cg-bristol">
+					<header class="course-group-head">
+						<h4 id="cg-bristol">University of Bristol</h4>
+						<span class="course-group-meta">2018–2022</span>
+						<span class="course-group-sub">Teaching Assistant · Bristol, United Kingdom</span>
+					</header>
+					<ul>
+						<li class="course">
+							<div><span class="course-name"><span class="course-code">EMAT10007</span>Introduction to Programming</span><span class="course-meta">2018–2022</span></div>
+							<span class="lang lang-en">English</span>
+						</li>
+						<li class="course">
+							<div><span class="course-name"><span class="course-code">EMAT10006</span>Further Computer Programming</span><span class="course-meta">2019–2021</span></div>
+							<span class="lang lang-en">English</span>
+						</li>
+						<li class="course">
+							<div><span class="course-name"><span class="course-code">COMSM0104 / COMS32500</span>Web Technologies</span><span class="course-meta">2020</span></div>
+							<span class="lang lang-en">English</span>
+						</li>
+						<li class="course">
+							<div><span class="course-name"><span class="course-code">COMSM0017</span>Applied Data Science</span><span class="course-meta">2018</span></div>
+							<span class="lang lang-en">English</span>
+						</li>
+					</ul>
+				</section>
+			</article>
+
+			<footer class="site-footer">
+				<div class="affiliations" role="list" aria-label="Affiliations">
+					<a role="listitem" href="https://www.yok.gov.tr/en"><img src="assets/img/logos/yok.jpg" alt="Council of Higher Education (YÖK)" width="236" height="119" style="--h: 31" loading="lazy"></a>
+					<a role="listitem" href="https://www.harran.edu.tr/"><img src="assets/img/logos/harran.jpg" alt="Harran University" width="246" height="246" style="--h: 44" loading="lazy"></a>
+					<a role="listitem" href="https://www.bristol.ac.uk/"><img src="assets/img/logos/bristol.jpg" alt="University of Bristol" width="245" height="244" style="--h: 44" loading="lazy"></a>
+					<a role="listitem" href="https://www.essex.ac.uk/"><img src="assets/img/logos/essex.jpg" alt="University of Essex" width="240" height="138" style="--h: 33" loading="lazy"></a>
+					<span class="aff-break" aria-hidden="true"></span>
+					<a role="listitem" href="https://bau.edu.tr/"><img src="assets/img/logos/bau.jpg" alt="Bahçeşehir University" width="194" height="239" style="--h: 49" loading="lazy"></a>
+					<span role="listitem"><img src="assets/img/logos/kaplan.jpg" alt="Kaplan International English" width="222" height="132" style="--h: 34" loading="lazy"></span>
+					<a role="listitem" href="https://www.epita.fr/en/"><img src="assets/img/logos/epita.jpg" alt="EPITA" width="214" height="147" style="--h: 36" loading="lazy"></a>
+				</div>
+				<p class="copyright">© <span data-year>2026</span> Ercan Ezin</p>
+			</footer>
+		</main>
+	</div>
+
+	<script src="assets/js/site.js"></script>
 </body>
 
 </html>
